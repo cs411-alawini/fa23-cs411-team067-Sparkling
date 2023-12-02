@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= title %></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Links to the Bootstrap 4 CSS framework, which is used for styling the webpage. -->
+  </head>
+  <form id="loginForm">
+    <label for="username">Username</label>
+    <input type="text" id ="username" name="username" placeholder="Username" />
+    <label for="password">Password</label>
+    <input type="password" id ="password" name="password" placeholder="Password" />
+    <button type="submit">Login</button>
+  </form>
+
+
+  <form action="feedback" method="POST">
+      <label for="feedback">Feedback</label>
+      <input
+        type="text"
+        id="feedback"
+        placeholder="Enter your feedback for a flight"
+        name="feedback"
+      />
+    <button type="submit">Submit</button>
+  </form>
+  </body>
+
+</html>
