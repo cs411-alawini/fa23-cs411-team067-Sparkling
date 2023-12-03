@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Portal</title>
+  </head>
+  <body>
+    <h1>Show all feedback posted by me</h1>
+    <ul>
+      <% for (let feedback of allFeedback) {%>
+      <li>
+        <a href="/feedback/<%= feedback.FEEDBACKID %>"
+          ><%= feedback.CONTENT %></a
+        >
+      </li>
+      <% }%>
+    </ul>
+
+    <a href="/feedback/new">Post new feedback</a>
+    <br /><a href="/logout">Log me out</a>
+  </body>
+</html>

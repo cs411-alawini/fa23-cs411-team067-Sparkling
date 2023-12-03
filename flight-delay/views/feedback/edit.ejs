@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+  </head>
+  <body>
+    <h1>Update content of feedback</h1>
+    <form
+      action="/feedback/<%= feedback.FEEDBACKID%>?_method=PUT"
+      method="POST"
+    >
+      <label for="content">Content (255 characters maximum)</label>
+      <br />
+      <!-- <input
+        id="content"
+        name="content"
+        value="<%= feedback.CONTENT %>"
+        
+      ></input
+      > -->
+      <textarea id="content" name="content" rows="4" cols="50" maxlength="255">
+    <%= feedback.CONTENT %>
+        </textarea
+      >
+      <br />
+      <button>Update Content of the feedback</button>
+    </form>
+    <a href="/feedback/<%= feedback.FEEDBACKID%>"
+      >Back to the feedback detail</a
+    >
+  </body>
+</html>

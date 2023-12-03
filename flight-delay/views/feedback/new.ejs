@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Delay Search Platform</title>
+    <h1>Post new feedback</h1>
+    <h2>Choose my flight</h2>
+    <form action="/feedback/new" method="POST">
+      <div>
+        <label for="date">Date of flight:</label>
+        <input type="date" id="date" name="date" value="2015-01-01" />
+
+        <label for="airline_IATA">Airline:</label>
+        <select id="airline_IATA" name="airline_IATA">
+          <option value="AA">AA-American Airlines Inc.</option>
+          <option value="AS">AS-Alaska Airlines Inc.</option>
+          <option value="MQ">MQ-American Eagle Airlines Inc.</option>
+          <option value="B6">B6-JetBlue Airways</option>
+          <option value="DL">DL-Delta Air Lines Inc.</option>
+          <option value="F9">F9-Frontier Airlines Inc.</option>
+          <option value="HA">HA-Hawaiian Airlines Inc.</option>
+          <option value="NK">NK-Spirit Air Lines</option>
+          <option value="OO">OO-Skywest Airlines Inc.</option>
+          <option value="EV">EV-Atlantic Southeast Airlines</option>
+          <option value="UA">UA-United Air Lines Inc.</option>
+          <option value="US">US-US Airways Inc.</option>
+          <option value="WN">WN-Southwest Airlines Co.</option>
+          <option value="VX">VX-Virgin America</option>
+        </select>
+        <label for="flight_number">Flight number:</label>
+        <input
+          type="number"
+          id="flight_number"
+          name="flight_number"
+          min="1"
+          step="1"
+          value="1"
+        />
+      </div>
+      <h2>My feedback</h2>
+      <div>
+        <label for="content">Content of the feedback</label>
+        <br />
+        <textarea
+          id="content"
+          name="content"
+          rows="7"
+          cols="50"
+          maxlength="255"
+        >
+ABCDEFGHIJKLMNOPQRSTUVWXYZ</textarea
+        >
+      </div>
+      <button>Post feedback</button>
+    </form>
+    <br />
+    <footer><a href="/">Go back to Home Page</a></footer>
+  </head>
+  <body></body>
+</html>

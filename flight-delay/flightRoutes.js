@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const connection = require("./db");
+const { connection } = require("./db");
+
 router.get("/delay-history/city/:city", (req, res) => {
   console.log("search delay-history of cities");
   const { city } = req.params;

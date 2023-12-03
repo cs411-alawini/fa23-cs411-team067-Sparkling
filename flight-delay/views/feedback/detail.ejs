@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Detail</title>
+  </head>
+  <body>
+    <h1>Show detail of a specific feedback</h1>
+    <!-- <p>FEEDBACKID: <%= feedback.FEEDBACKID%></p> -->
+    <!-- <p>USERID: <%= feedback.USERID%></p> -->
+    <p>CONTENT: <%= feedback.CONTENT%></p>
+    <p>YEAR: <%= feedback.YEAR%></p>
+    <p>MONTH: <%= feedback.MONTH%></p>
+    <p>DAY: <%= feedback.DAY%></p>
+    <p>FLIGHT_NUMBER: <%= feedback.FLIGHT_NUMBER%></p>
+    <p>AIRLINE: <%= feedback.AIRLINE%></p>
+
+    <a href="/feedback/<%= feedback.FEEDBACKID%>/edit"
+      >Update content of current feedback</a
+    >
+    <br />
+    <br />
+    <form
+      action="/feedback/<%= feedback.FEEDBACKID%>?_method=DELETE"
+      method="POST"
+    >
+      <button>Delete feedback</button>
+    </form>
+    <br />
+    <a href="/feedback">Show all of my feedback</a>
+  </body>
+</html>
