@@ -61,4 +61,57 @@ router.get("/delay-history/flight/:airline_IATA/:number", (req, res) => {
   });
 });
 
+//search delay rate of all airport
+router.get("/delay-rate/airport", (req, res) => {
+  console.log(`Search delay rate of all airports.`);
+  var sql = `
+            SELECT ORIGIN_AIRPORT,
+            AVG(CASE WHEN ARRIVAL_DELAY > 0 
+            THEN 1 
+            ELSE 0 
+            END) AS AVG_Delay_Rate
+            FROM Flights
+            GROUP BY ORIGIN_AIRPORT
+            HAVING ORIGIN_AIRPORT NOT LIKE '1__';
+  `;
+  //'1__' filter out suspicious row for now
+
+  console.log(sql);
+  connection.query(sql, (err, result) => {
+    if (err) {
+      res.send(err);
+      return;
+    }
+    res.json(result);
+  });
+});
+
+//search delay rate of an airport
+router.get("/delay-rate/airport/:airport_IATA", (req, res) => {
+  const { airport_IATA } = req.params;
+  console.log(airport_IATA);
+  console.log(`search delay rate of the airport ${airport_IATA}`);
+  var sql = `
+            SELECT ORIGIN_AIRPORT, 
+            AVG(CASE WHEN ARRIVAL_DELAY > 0 
+            THEN 1 
+            ELSE 0 
+            END) AS AVG_Delay_Rate
+            FROM Flights
+            WHERE ORIGIN_AIRPORT = '${airport_IATA}'
+            GROUP BY ORIGIN_AIRPORT
+            HAVING ORIGIN_AIRPORT NOT LIKE '1__';
+  `;
+  //'1__' filter out suspicious row for now
+
+  console.log(sql);
+  connection.query(sql, (err, result) => {
+    if (err) {
+      res.send(err);
+      return;
+    }
+    res.json(result);
+  });
+});
+
 module.exports = router;
