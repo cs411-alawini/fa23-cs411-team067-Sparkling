@@ -1,11 +1,14 @@
 # fa23-cs411-team067-Sparkling
+# About this project
+This project supports search flight delay history in U.S. in 2015.
+Data is from xxx.
 
 # How to set up for this project?
-1. clone the github repository
-2. enter the folder flight-delay
+1. clone the github repository to your local computer
+2. enter the subfolder flight-delay
 3. run `npm install` to install packages required for this project
 4. run `npm index.js` to start the project
-5. visit `localhost:3000/flight` in your browser and use the project
+5. visit `localhost:3000/flight` in your browser and now you can explore it
 
 # Miscellaneous
 ## TeamID-SampleProject
