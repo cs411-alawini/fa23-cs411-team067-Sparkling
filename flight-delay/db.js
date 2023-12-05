@@ -9,7 +9,7 @@ const dbConfig = {
 const connection = mysql.createConnection(dbConfig);
 
 function createProcedure() {
-  const storedProcedureName = "CheckIfFlightExist";
+  const storedProcedureName = "CheckIfFlightExistBeforeInsert";
   const sql_checkProcedureExists = `
     SELECT *
     FROM INFORMATION_SCHEMA.ROUTINES 
@@ -77,6 +77,7 @@ function createProcedure() {
 
 module.exports = { connection, createProcedure };
 
+// this trigger won't work because it will introduce self calling
 // function setUpDBTrigger() {
 //   const triggerCheckFlight = "CheckFlight";
 //   const sql_checkFlightExistsTrigger = `

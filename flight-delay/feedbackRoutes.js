@@ -119,7 +119,7 @@ router.post("/feedback/new", requireLogin, (req, res) => {
     } else {
       // Post feedback
       var feedbackID = uuid();
-      var sql = `INSERT INTO Feedbacks(FEEDBACKID, USERID, CONTENT, YEAR, MONTH, DAY, FLIGHT_NUMBER, AIRLINE) VALUES ('${feedbackID}', '${userid}', '${content}', ${year}, ${month}, ${day}, '${flight_number}', '${airline_IATA}')`;
+      var sql = `call CheckIfFlightExistBeforeInsert('${feedbackID}', '${userid}', '${content}', ${year}, ${month}, ${day}, '${flight_number}', '${airline_IATA}')`;
 
       connection.query(sql, (err, result) => {
         if (err) {
