@@ -65,14 +65,18 @@ router.get("/delay-history/flight/:airline_IATA/:number", (req, res) => {
 router.get("/delay-rate/airport", (req, res) => {
   console.log(`Search delay rate of all airports.`);
   var sql = `
-            SELECT ORIGIN_AIRPORT,
-            AVG(CASE WHEN ARRIVAL_DELAY > 0 
-            THEN 1 
-            ELSE 0 
-            END) AS AVG_Delay_Rate
-            FROM Flights
-            GROUP BY ORIGIN_AIRPORT
-            HAVING ORIGIN_AIRPORT NOT LIKE '1__';
+  SELECT
+    f.ORIGIN_AIRPORT,
+    a.LATITUDE,
+    a.LONGITUDE,
+    AVG(CASE WHEN f.ARRIVAL_DELAY > 0 
+    THEN 1 
+    ELSE 0 
+    END) AS AVG_Delay_Rate
+  FROM Flights f
+  JOIN Airports a ON f.ORIGIN_AIRPORT = a.IATA_CODE
+  GROUP BY f.ORIGIN_AIRPORT
+  HAVING f.ORIGIN_AIRPORT NOT LIKE '1__'
   `;
   //'1__' filter out suspicious row for now
 
@@ -92,15 +96,19 @@ router.get("/delay-rate/airport/:airport_IATA", (req, res) => {
   console.log(airport_IATA);
   console.log(`search delay rate of the airport ${airport_IATA}`);
   var sql = `
-            SELECT ORIGIN_AIRPORT, 
-            AVG(CASE WHEN ARRIVAL_DELAY > 0 
-            THEN 1 
-            ELSE 0 
-            END) AS AVG_Delay_Rate
-            FROM Flights
-            WHERE ORIGIN_AIRPORT = '${airport_IATA}'
-            GROUP BY ORIGIN_AIRPORT
-            HAVING ORIGIN_AIRPORT NOT LIKE '1__';
+  SELECT
+    f.ORIGIN_AIRPORT,
+    a.LATITUDE,
+    a.LONGITUDE,
+    AVG(CASE WHEN f.ARRIVAL_DELAY > 0 
+    THEN 1 
+    ELSE 0 
+    END) AS AVG_Delay_Rate
+  FROM Flights f
+  JOIN Airports a ON f.ORIGIN_AIRPORT = a.IATA_CODE
+  WHERE f.ORIGIN_AIRPORT = '${airport_IATA}'
+  GROUP BY f.ORIGIN_AIRPORT
+  HAVING f.ORIGIN_AIRPORT NOT LIKE '1__'
   `;
   //'1__' filter out suspicious row for now
 
