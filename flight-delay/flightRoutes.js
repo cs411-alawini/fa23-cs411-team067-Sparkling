@@ -98,7 +98,7 @@ router.get("/delay-rate/airport/:airport_IATA", (req, res) => {
   var sql = `
   SELECT
     f.ORIGIN_AIRPORT,
-    a.LATITUDE,
+    // a.LATITUDE,
     a.LONGITUDE,
     AVG(CASE WHEN f.ARRIVAL_DELAY > 0 
     THEN 1 
@@ -121,5 +121,72 @@ router.get("/delay-rate/airport/:airport_IATA", (req, res) => {
     res.json(result);
   });
 });
+
+//search delay rate of all routes
+router.get("/delay-rate/route", (req, res) => {
+  console.log(`search delay rate of all routes`);
+  var sql = `
+    SELECT 
+      ORIGIN_AIRPORT,
+      a.LATITUDE AS origin_lat,
+      a.LONGITUDE AS origin_lon,
+      DESTINATION_AIRPORT,
+      a1.LATITUDE AS dest_lat,
+      a1.LONGITUDE AS dest_lon,
+      SUM(CASE WHEN ARRIVAL_DELAY > 0 THEN 1 ELSE 0 END) / COUNT(*) AS delay_rate
+    FROM Flights f
+      JOIN Airports a ON a.IATA_CODE = f.ORIGIN_AIRPORT
+      JOIN Airports a1 ON a1.IATA_CODE = f.DESTINATION_AIRPORT
+    WHERE ORIGIN_AIRPORT NOT LIKE '1__' AND DESTINATION_AIRPORT NOT LIKE '1__'
+    GROUP BY ORIGIN_AIRPORT, DESTINATION_AIRPORT
+  `;
+  //'1__' filter out suspicious row for now
+
+  console.log(sql);
+  connection.query(sql, (err, result) => {
+    if (err) {
+      res.send(err);
+      return;
+    }
+    res.json(result);
+  });
+});
+
+//search delay rate of an route
+router.get(
+  "/delay-rate/route/:airport_origin/:airport_destination",
+  (req, res) => {
+    const { airport_origin, airport_destination } = req.params;
+    console.log(
+      `search delay rate of the route: from ${airport_origin} to ${airport_destination}`
+    );
+    var sql = `
+    SELECT 
+      ORIGIN_AIRPORT,
+      a.LATITUDE AS origin_lat,
+      a.LONGITUDE AS origin_lon,
+      DESTINATION_AIRPORT,
+      a1.LATITUDE AS dest_lat,
+      a1.LONGITUDE AS dest_lon,
+      SUM(CASE WHEN ARRIVAL_DELAY > 0 THEN 1 ELSE 0 END) / COUNT(*) AS delay_rate
+    FROM Flights f
+      JOIN Airports a ON a.IATA_CODE = f.ORIGIN_AIRPORT
+      JOIN Airports a1 ON a1.IATA_CODE = f.DESTINATION_AIRPORT
+    WHERE ORIGIN_AIRPORT = '${airport_origin}' AND DESTINATION_AIRPORT = '${airport_destination}' 
+      AND ORIGIN_AIRPORT NOT LIKE '1__' AND DESTINATION_AIRPORT NOT LIKE '1__'
+    GROUP BY ORIGIN_AIRPORT, DESTINATION_AIRPORT
+  `;
+    //'1__' filter out suspicious row for now
+
+    console.log(sql);
+    connection.query(sql, (err, result) => {
+      if (err) {
+        res.send(err);
+        return;
+      }
+      res.json(result);
+    });
+  }
+);
 
 module.exports = router;
