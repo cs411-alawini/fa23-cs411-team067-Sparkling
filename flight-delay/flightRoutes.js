@@ -26,7 +26,7 @@ router.get("/delay-history/airport/:airport", (req, res) => {
   console.log("search delay-history of airports");
   const { airport } = req.params;
   var sql = `
-      SELECT count(*)
+      SELECT *
       FROM Flights
       WHERE ORIGIN_AIRPORT = '${airport}' AND DEPARTURE_TIME > 0
       `;
@@ -46,7 +46,7 @@ router.get("/delay-history/flight/:airline_IATA/:number", (req, res) => {
   console.log(airline_IATA, number);
   console.log("search delay-history of flight numbers");
   var sql = `
-      SELECT count(*) 
+      SELECT *
       FROM Flights
       WHERE AIRLINE = '${airline_IATA}' AND FLIGHT_NUMBER = '${number}' AND DEPARTURE_TIME > 0
       `;
