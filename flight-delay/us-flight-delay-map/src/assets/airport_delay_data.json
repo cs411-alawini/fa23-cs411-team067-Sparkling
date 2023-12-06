@@ -1,0 +1,1874 @@
+[
+  {
+    "ORIGIN_AIRPORT": "ABE",
+    "LATITUDE": 40.65236,
+    "LONGITUDE": -75.4404,
+    "AVG_Delay_Rate": "0.3646"
+  },
+  {
+    "ORIGIN_AIRPORT": "ABI",
+    "LATITUDE": 32.41132,
+    "LONGITUDE": -99.6819,
+    "AVG_Delay_Rate": "0.2676"
+  },
+  {
+    "ORIGIN_AIRPORT": "ABQ",
+    "LATITUDE": 35.04022,
+    "LONGITUDE": -106.60919,
+    "AVG_Delay_Rate": "0.3057"
+  },
+  {
+    "ORIGIN_AIRPORT": "ABR",
+    "LATITUDE": 45.44906,
+    "LONGITUDE": -98.42183,
+    "AVG_Delay_Rate": "0.2717"
+  },
+  {
+    "ORIGIN_AIRPORT": "ABY",
+    "LATITUDE": 31.53552,
+    "LONGITUDE": -84.19447,
+    "AVG_Delay_Rate": "0.2006"
+  },
+  {
+    "ORIGIN_AIRPORT": "ACK",
+    "LATITUDE": 41.25305,
+    "LONGITUDE": -70.06018,
+    "AVG_Delay_Rate": "0.3293"
+  },
+  {
+    "ORIGIN_AIRPORT": "ACT",
+    "LATITUDE": 31.61129,
+    "LONGITUDE": -97.23052,
+    "AVG_Delay_Rate": "0.2341"
+  },
+  {
+    "ORIGIN_AIRPORT": "ACV",
+    "LATITUDE": 40.97812,
+    "LONGITUDE": -124.10862,
+    "AVG_Delay_Rate": "0.3404"
+  },
+  {
+    "ORIGIN_AIRPORT": "ACY",
+    "LATITUDE": 39.45758,
+    "LONGITUDE": -74.57717,
+    "AVG_Delay_Rate": "0.3556"
+  },
+  {
+    "ORIGIN_AIRPORT": "ADK",
+    "LATITUDE": 51.87796,
+    "LONGITUDE": -176.64603,
+    "AVG_Delay_Rate": "0.5833"
+  },
+  {
+    "ORIGIN_AIRPORT": "ADQ",
+    "LATITUDE": 57.74997,
+    "LONGITUDE": -152.49386,
+    "AVG_Delay_Rate": "0.3478"
+  },
+  {
+    "ORIGIN_AIRPORT": "AEX",
+    "LATITUDE": 31.32737,
+    "LONGITUDE": -92.54856,
+    "AVG_Delay_Rate": "0.3265"
+  },
+  {
+    "ORIGIN_AIRPORT": "AGS",
+    "LATITUDE": 33.36996,
+    "LONGITUDE": -81.9645,
+    "AVG_Delay_Rate": "0.3337"
+  },
+  {
+    "ORIGIN_AIRPORT": "AKN",
+    "LATITUDE": 58.6768,
+    "LONGITUDE": -156.64922,
+    "AVG_Delay_Rate": "0.5079"
+  },
+  {
+    "ORIGIN_AIRPORT": "ALB",
+    "LATITUDE": 42.74812,
+    "LONGITUDE": -73.80298,
+    "AVG_Delay_Rate": "0.2540"
+  },
+  {
+    "ORIGIN_AIRPORT": "ALO",
+    "LATITUDE": 42.55708,
+    "LONGITUDE": -92.40034,
+    "AVG_Delay_Rate": "0.2152"
+  },
+  {
+    "ORIGIN_AIRPORT": "AMA",
+    "LATITUDE": 35.21937,
+    "LONGITUDE": -101.70593,
+    "AVG_Delay_Rate": "0.3519"
+  },
+  {
+    "ORIGIN_AIRPORT": "ANC",
+    "LATITUDE": 61.17432,
+    "LONGITUDE": -149.99619,
+    "AVG_Delay_Rate": "0.3110"
+  },
+  {
+    "ORIGIN_AIRPORT": "APN",
+    "LATITUDE": 45.07807,
+    "LONGITUDE": -83.56029,
+    "AVG_Delay_Rate": "0.5000"
+  },
+  {
+    "ORIGIN_AIRPORT": "ASE",
+    "LATITUDE": 39.22316,
+    "LONGITUDE": -106.86885,
+    "AVG_Delay_Rate": "0.4018"
+  },
+  {
+    "ORIGIN_AIRPORT": "ATL",
+    "LATITUDE": 33.64044,
+    "LONGITUDE": -84.42694,
+    "AVG_Delay_Rate": "0.3237"
+  },
+  {
+    "ORIGIN_AIRPORT": "ATW",
+    "LATITUDE": 44.25741,
+    "LONGITUDE": -88.51948,
+    "AVG_Delay_Rate": "0.3432"
+  },
+  {
+    "ORIGIN_AIRPORT": "AUS",
+    "LATITUDE": 30.19453,
+    "LONGITUDE": -97.66987,
+    "AVG_Delay_Rate": "0.3302"
+  },
+  {
+    "ORIGIN_AIRPORT": "AVL",
+    "LATITUDE": 35.43619,
+    "LONGITUDE": -82.54181,
+    "AVG_Delay_Rate": "0.3313"
+  },
+  {
+    "ORIGIN_AIRPORT": "AVP",
+    "LATITUDE": 41.33815,
+    "LONGITUDE": -75.72427,
+    "AVG_Delay_Rate": "0.3321"
+  },
+  {
+    "ORIGIN_AIRPORT": "AZO",
+    "LATITUDE": 42.23488,
+    "LONGITUDE": -85.55206,
+    "AVG_Delay_Rate": "0.2104"
+  },
+  {
+    "ORIGIN_AIRPORT": "BDL",
+    "LATITUDE": 41.93887,
+    "LONGITUDE": -72.68323,
+    "AVG_Delay_Rate": "0.3008"
+  },
+  {
+    "ORIGIN_AIRPORT": "BET",
+    "LATITUDE": 60.77978,
+    "LONGITUDE": -161.838,
+    "AVG_Delay_Rate": "0.3661"
+  },
+  {
+    "ORIGIN_AIRPORT": "BFL",
+    "LATITUDE": 35.4336,
+    "LONGITUDE": -119.05677,
+    "AVG_Delay_Rate": "0.2886"
+  },
+  {
+    "ORIGIN_AIRPORT": "BGM",
+    "LATITUDE": 42.20848,
+    "LONGITUDE": -75.97961,
+    "AVG_Delay_Rate": "0.2269"
+  },
+  {
+    "ORIGIN_AIRPORT": "BGR",
+    "LATITUDE": 44.80744,
+    "LONGITUDE": -68.82814,
+    "AVG_Delay_Rate": "0.2633"
+  },
+  {
+    "ORIGIN_AIRPORT": "BHM",
+    "LATITUDE": 33.56294,
+    "LONGITUDE": -86.75355,
+    "AVG_Delay_Rate": "0.3255"
+  },
+  {
+    "ORIGIN_AIRPORT": "BIL",
+    "LATITUDE": 45.80766,
+    "LONGITUDE": -108.54286,
+    "AVG_Delay_Rate": "0.2291"
+  },
+  {
+    "ORIGIN_AIRPORT": "BIS",
+    "LATITUDE": 46.77411,
+    "LONGITUDE": -100.74672,
+    "AVG_Delay_Rate": "0.3013"
+  },
+  {
+    "ORIGIN_AIRPORT": "BJI",
+    "LATITUDE": 47.50942,
+    "LONGITUDE": -94.93372,
+    "AVG_Delay_Rate": "0.2395"
+  },
+  {
+    "ORIGIN_AIRPORT": "BLI",
+    "LATITUDE": 48.79275,
+    "LONGITUDE": -122.53753,
+    "AVG_Delay_Rate": "0.3221"
+  },
+  {
+    "ORIGIN_AIRPORT": "BMI",
+    "LATITUDE": 40.47799,
+    "LONGITUDE": -88.91595,
+    "AVG_Delay_Rate": "0.3220"
+  },
+  {
+    "ORIGIN_AIRPORT": "BNA",
+    "LATITUDE": 36.12448,
+    "LONGITUDE": -86.67818,
+    "AVG_Delay_Rate": "0.3321"
+  },
+  {
+    "ORIGIN_AIRPORT": "BOI",
+    "LATITUDE": 43.56444,
+    "LONGITUDE": -116.22278,
+    "AVG_Delay_Rate": "0.3619"
+  },
+  {
+    "ORIGIN_AIRPORT": "BOS",
+    "LATITUDE": 42.36435,
+    "LONGITUDE": -71.00518,
+    "AVG_Delay_Rate": "0.3551"
+  },
+  {
+    "ORIGIN_AIRPORT": "BPT",
+    "LATITUDE": 29.95083,
+    "LONGITUDE": -94.02069,
+    "AVG_Delay_Rate": "0.3270"
+  },
+  {
+    "ORIGIN_AIRPORT": "BQK",
+    "LATITUDE": 31.25903,
+    "LONGITUDE": -81.46631,
+    "AVG_Delay_Rate": "0.2549"
+  },
+  {
+    "ORIGIN_AIRPORT": "BQN",
+    "LATITUDE": 18.49486,
+    "LONGITUDE": -67.12944,
+    "AVG_Delay_Rate": "0.3380"
+  },
+  {
+    "ORIGIN_AIRPORT": "BRD",
+    "LATITUDE": 46.39786,
+    "LONGITUDE": -94.13723,
+    "AVG_Delay_Rate": "0.2394"
+  },
+  {
+    "ORIGIN_AIRPORT": "BRO",
+    "LATITUDE": 25.90683,
+    "LONGITUDE": -97.42586,
+    "AVG_Delay_Rate": "0.2411"
+  },
+  {
+    "ORIGIN_AIRPORT": "BTM",
+    "LATITUDE": 45.9548,
+    "LONGITUDE": -112.49746,
+    "AVG_Delay_Rate": "0.0958"
+  },
+  {
+    "ORIGIN_AIRPORT": "BTR",
+    "LATITUDE": 30.53316,
+    "LONGITUDE": -91.14963,
+    "AVG_Delay_Rate": "0.4080"
+  },
+  {
+    "ORIGIN_AIRPORT": "BTV",
+    "LATITUDE": 44.473,
+    "LONGITUDE": -73.15031,
+    "AVG_Delay_Rate": "0.3290"
+  },
+  {
+    "ORIGIN_AIRPORT": "BUF",
+    "LATITUDE": 42.94052,
+    "LONGITUDE": -78.73217,
+    "AVG_Delay_Rate": "0.2790"
+  },
+  {
+    "ORIGIN_AIRPORT": "BUR",
+    "LATITUDE": 34.20062,
+    "LONGITUDE": -118.3585,
+    "AVG_Delay_Rate": "0.2912"
+  },
+  {
+    "ORIGIN_AIRPORT": "BWI",
+    "LATITUDE": 39.1754,
+    "LONGITUDE": -76.6682,
+    "AVG_Delay_Rate": "0.3608"
+  },
+  {
+    "ORIGIN_AIRPORT": "BZN",
+    "LATITUDE": 45.7769,
+    "LONGITUDE": -111.15301,
+    "AVG_Delay_Rate": "0.3190"
+  },
+  {
+    "ORIGIN_AIRPORT": "CAE",
+    "LATITUDE": 33.93884,
+    "LONGITUDE": -81.11954,
+    "AVG_Delay_Rate": "0.3520"
+  },
+  {
+    "ORIGIN_AIRPORT": "CAK",
+    "LATITUDE": 40.91631,
+    "LONGITUDE": -81.44247,
+    "AVG_Delay_Rate": "0.2503"
+  },
+  {
+    "ORIGIN_AIRPORT": "CEC",
+    "LATITUDE": 41.78016,
+    "LONGITUDE": -124.23653,
+    "AVG_Delay_Rate": "0.3105"
+  },
+  {
+    "ORIGIN_AIRPORT": "CHA",
+    "LATITUDE": 35.03527,
+    "LONGITUDE": -85.20379,
+    "AVG_Delay_Rate": "0.3530"
+  },
+  {
+    "ORIGIN_AIRPORT": "CHO",
+    "LATITUDE": 38.13864,
+    "LONGITUDE": -78.45286,
+    "AVG_Delay_Rate": "0.2143"
+  },
+  {
+    "ORIGIN_AIRPORT": "CHS",
+    "LATITUDE": 32.89865,
+    "LONGITUDE": -80.04051,
+    "AVG_Delay_Rate": "0.3152"
+  },
+  {
+    "ORIGIN_AIRPORT": "CID",
+    "LATITUDE": 41.88459,
+    "LONGITUDE": -91.71087,
+    "AVG_Delay_Rate": "0.3680"
+  },
+  {
+    "ORIGIN_AIRPORT": "CIU",
+    "LATITUDE": 46.25075,
+    "LONGITUDE": -84.47239,
+    "AVG_Delay_Rate": "0.3567"
+  },
+  {
+    "ORIGIN_AIRPORT": "CLD",
+    "LATITUDE": 33.12723,
+    "LONGITUDE": -117.27873,
+    "AVG_Delay_Rate": "0.3457"
+  },
+  {
+    "ORIGIN_AIRPORT": "CLE",
+    "LATITUDE": 41.41089,
+    "LONGITUDE": -81.8494,
+    "AVG_Delay_Rate": "0.3159"
+  },
+  {
+    "ORIGIN_AIRPORT": "CLL",
+    "LATITUDE": 30.58859,
+    "LONGITUDE": -96.36382,
+    "AVG_Delay_Rate": "0.2312"
+  },
+  {
+    "ORIGIN_AIRPORT": "CLT",
+    "LATITUDE": 35.21401,
+    "LONGITUDE": -80.94313,
+    "AVG_Delay_Rate": "0.4189"
+  },
+  {
+    "ORIGIN_AIRPORT": "CMH",
+    "LATITUDE": 39.99799,
+    "LONGITUDE": -82.89188,
+    "AVG_Delay_Rate": "0.3058"
+  },
+  {
+    "ORIGIN_AIRPORT": "CMI",
+    "LATITUDE": 40.03925,
+    "LONGITUDE": -88.27806,
+    "AVG_Delay_Rate": "0.3218"
+  },
+  {
+    "ORIGIN_AIRPORT": "CMX",
+    "LATITUDE": 47.16842,
+    "LONGITUDE": -88.48906,
+    "AVG_Delay_Rate": "0.3024"
+  },
+  {
+    "ORIGIN_AIRPORT": "COD",
+    "LATITUDE": 44.52019,
+    "LONGITUDE": -109.0238,
+    "AVG_Delay_Rate": "0.4338"
+  },
+  {
+    "ORIGIN_AIRPORT": "COS",
+    "LATITUDE": 38.80581,
+    "LONGITUDE": -104.70025,
+    "AVG_Delay_Rate": "0.3632"
+  },
+  {
+    "ORIGIN_AIRPORT": "COU",
+    "LATITUDE": 38.81809,
+    "LONGITUDE": -92.21963,
+    "AVG_Delay_Rate": "0.3105"
+  },
+  {
+    "ORIGIN_AIRPORT": "CPR",
+    "LATITUDE": 42.90836,
+    "LONGITUDE": -106.46447,
+    "AVG_Delay_Rate": "0.2325"
+  },
+  {
+    "ORIGIN_AIRPORT": "CRP",
+    "LATITUDE": 27.77036,
+    "LONGITUDE": -97.50122,
+    "AVG_Delay_Rate": "0.3098"
+  },
+  {
+    "ORIGIN_AIRPORT": "CRW",
+    "LATITUDE": 38.37315,
+    "LONGITUDE": -81.59319,
+    "AVG_Delay_Rate": "0.3667"
+  },
+  {
+    "ORIGIN_AIRPORT": "CSG",
+    "LATITUDE": 32.51633,
+    "LONGITUDE": -84.93886,
+    "AVG_Delay_Rate": "0.2409"
+  },
+  {
+    "ORIGIN_AIRPORT": "CVG",
+    "LATITUDE": 39.04614,
+    "LONGITUDE": -84.66217,
+    "AVG_Delay_Rate": "0.3454"
+  },
+  {
+    "ORIGIN_AIRPORT": "CWA",
+    "LATITUDE": 44.77762,
+    "LONGITUDE": -89.66678,
+    "AVG_Delay_Rate": "0.3195"
+  },
+  {
+    "ORIGIN_AIRPORT": "DAB",
+    "LATITUDE": 29.17992,
+    "LONGITUDE": -81.05806,
+    "AVG_Delay_Rate": "0.2048"
+  },
+  {
+    "ORIGIN_AIRPORT": "DAL",
+    "LATITUDE": 32.84711,
+    "LONGITUDE": -96.85177,
+    "AVG_Delay_Rate": "0.3839"
+  },
+  {
+    "ORIGIN_AIRPORT": "DAY",
+    "LATITUDE": 39.90238,
+    "LONGITUDE": -84.21938,
+    "AVG_Delay_Rate": "0.3274"
+  },
+  {
+    "ORIGIN_AIRPORT": "DBQ",
+    "LATITUDE": 42.40296,
+    "LONGITUDE": -90.70917,
+    "AVG_Delay_Rate": "0.2779"
+  },
+  {
+    "ORIGIN_AIRPORT": "DCA",
+    "LATITUDE": 38.85208,
+    "LONGITUDE": -77.03772,
+    "AVG_Delay_Rate": "0.3213"
+  },
+  {
+    "ORIGIN_AIRPORT": "DEN",
+    "LATITUDE": 39.85841,
+    "LONGITUDE": -104.667,
+    "AVG_Delay_Rate": "0.4013"
+  },
+  {
+    "ORIGIN_AIRPORT": "DFW",
+    "LATITUDE": 32.89595,
+    "LONGITUDE": -97.0372,
+    "AVG_Delay_Rate": "0.3870"
+  },
+  {
+    "ORIGIN_AIRPORT": "DHN",
+    "LATITUDE": 31.32134,
+    "LONGITUDE": -85.44963,
+    "AVG_Delay_Rate": "0.2435"
+  },
+  {
+    "ORIGIN_AIRPORT": "DIK",
+    "LATITUDE": 46.79739,
+    "LONGITUDE": -102.80195,
+    "AVG_Delay_Rate": "0.1599"
+  },
+  {
+    "ORIGIN_AIRPORT": "DLG",
+    "LATITUDE": 59.04541,
+    "LONGITUDE": -158.50334,
+    "AVG_Delay_Rate": "0.2208"
+  },
+  {
+    "ORIGIN_AIRPORT": "DLH",
+    "LATITUDE": 46.84209,
+    "LONGITUDE": -92.19365,
+    "AVG_Delay_Rate": "0.4603"
+  },
+  {
+    "ORIGIN_AIRPORT": "DRO",
+    "LATITUDE": 37.15152,
+    "LONGITUDE": -107.75377,
+    "AVG_Delay_Rate": "0.3790"
+  },
+  {
+    "ORIGIN_AIRPORT": "DSM",
+    "LATITUDE": 41.53493,
+    "LONGITUDE": -93.66068,
+    "AVG_Delay_Rate": "0.3598"
+  },
+  {
+    "ORIGIN_AIRPORT": "DTW",
+    "LATITUDE": 42.21206,
+    "LONGITUDE": -83.34884,
+    "AVG_Delay_Rate": "0.3290"
+  },
+  {
+    "ORIGIN_AIRPORT": "DVL",
+    "LATITUDE": 48.11425,
+    "LONGITUDE": -98.90878,
+    "AVG_Delay_Rate": "0.3228"
+  },
+  {
+    "ORIGIN_AIRPORT": "EAU",
+    "LATITUDE": 44.86526,
+    "LONGITUDE": -91.48507,
+    "AVG_Delay_Rate": "0.3219"
+  },
+  {
+    "ORIGIN_AIRPORT": "ECP",
+    "LATITUDE": 0,
+    "LONGITUDE": 0,
+    "AVG_Delay_Rate": "0.2170"
+  },
+  {
+    "ORIGIN_AIRPORT": "EGE",
+    "LATITUDE": 39.64257,
+    "LONGITUDE": -106.9177,
+    "AVG_Delay_Rate": "0.3786"
+  },
+  {
+    "ORIGIN_AIRPORT": "EKO",
+    "LATITUDE": 40.82493,
+    "LONGITUDE": -115.7917,
+    "AVG_Delay_Rate": "0.1986"
+  },
+  {
+    "ORIGIN_AIRPORT": "ELM",
+    "LATITUDE": 42.15991,
+    "LONGITUDE": -76.89144,
+    "AVG_Delay_Rate": "0.3594"
+  },
+  {
+    "ORIGIN_AIRPORT": "ELP",
+    "LATITUDE": 31.80667,
+    "LONGITUDE": -106.37781,
+    "AVG_Delay_Rate": "0.3491"
+  },
+  {
+    "ORIGIN_AIRPORT": "ERI",
+    "LATITUDE": 42.08202,
+    "LONGITUDE": -80.17622,
+    "AVG_Delay_Rate": "0.3791"
+  },
+  {
+    "ORIGIN_AIRPORT": "ESC",
+    "LATITUDE": 45.72267,
+    "LONGITUDE": -87.09373,
+    "AVG_Delay_Rate": "0.1815"
+  },
+  {
+    "ORIGIN_AIRPORT": "EUG",
+    "LATITUDE": 44.12326,
+    "LONGITUDE": -123.21869,
+    "AVG_Delay_Rate": "0.2967"
+  },
+  {
+    "ORIGIN_AIRPORT": "EVV",
+    "LATITUDE": 38.03799,
+    "LONGITUDE": -87.53063,
+    "AVG_Delay_Rate": "0.3252"
+  },
+  {
+    "ORIGIN_AIRPORT": "EWN",
+    "LATITUDE": 35.07297,
+    "LONGITUDE": -77.04294,
+    "AVG_Delay_Rate": "0.2874"
+  },
+  {
+    "ORIGIN_AIRPORT": "EWR",
+    "LATITUDE": 40.6925,
+    "LONGITUDE": -74.16866,
+    "AVG_Delay_Rate": "0.3382"
+  },
+  {
+    "ORIGIN_AIRPORT": "EYW",
+    "LATITUDE": 24.55611,
+    "LONGITUDE": -81.75956,
+    "AVG_Delay_Rate": "0.3081"
+  },
+  {
+    "ORIGIN_AIRPORT": "FAI",
+    "LATITUDE": 64.81368,
+    "LONGITUDE": -147.85967,
+    "AVG_Delay_Rate": "0.2849"
+  },
+  {
+    "ORIGIN_AIRPORT": "FAR",
+    "LATITUDE": 46.91935,
+    "LONGITUDE": -96.81499,
+    "AVG_Delay_Rate": "0.3390"
+  },
+  {
+    "ORIGIN_AIRPORT": "FAT",
+    "LATITUDE": 36.77619,
+    "LONGITUDE": -119.71814,
+    "AVG_Delay_Rate": "0.3729"
+  },
+  {
+    "ORIGIN_AIRPORT": "FAY",
+    "LATITUDE": 34.99147,
+    "LONGITUDE": -78.88,
+    "AVG_Delay_Rate": "0.1772"
+  },
+  {
+    "ORIGIN_AIRPORT": "FCA",
+    "LATITUDE": 48.3114,
+    "LONGITUDE": -114.25507,
+    "AVG_Delay_Rate": "0.2641"
+  },
+  {
+    "ORIGIN_AIRPORT": "FLG",
+    "LATITUDE": 35.13845,
+    "LONGITUDE": -111.67122,
+    "AVG_Delay_Rate": "0.4040"
+  },
+  {
+    "ORIGIN_AIRPORT": "FLL",
+    "LATITUDE": 26.07258,
+    "LONGITUDE": -80.15275,
+    "AVG_Delay_Rate": "0.3505"
+  },
+  {
+    "ORIGIN_AIRPORT": "FNT",
+    "LATITUDE": 42.9655,
+    "LONGITUDE": -83.74346,
+    "AVG_Delay_Rate": "0.2126"
+  },
+  {
+    "ORIGIN_AIRPORT": "FSD",
+    "LATITUDE": 43.58135,
+    "LONGITUDE": -96.7417,
+    "AVG_Delay_Rate": "0.3757"
+  },
+  {
+    "ORIGIN_AIRPORT": "FSM",
+    "LATITUDE": 35.33659,
+    "LONGITUDE": -94.36744,
+    "AVG_Delay_Rate": "0.2868"
+  },
+  {
+    "ORIGIN_AIRPORT": "FWA",
+    "LATITUDE": 40.97847,
+    "LONGITUDE": -85.19515,
+    "AVG_Delay_Rate": "0.3674"
+  },
+  {
+    "ORIGIN_AIRPORT": "GCC",
+    "LATITUDE": 44.3489,
+    "LONGITUDE": -105.53936,
+    "AVG_Delay_Rate": "0.2315"
+  },
+  {
+    "ORIGIN_AIRPORT": "GCK",
+    "LATITUDE": 37.92752,
+    "LONGITUDE": -100.72441,
+    "AVG_Delay_Rate": "0.2980"
+  },
+  {
+    "ORIGIN_AIRPORT": "GEG",
+    "LATITUDE": 47.61986,
+    "LONGITUDE": -117.53384,
+    "AVG_Delay_Rate": "0.3189"
+  },
+  {
+    "ORIGIN_AIRPORT": "GFK",
+    "LATITUDE": 47.94926,
+    "LONGITUDE": -97.17611,
+    "AVG_Delay_Rate": "0.2544"
+  },
+  {
+    "ORIGIN_AIRPORT": "GGG",
+    "LATITUDE": 32.38486,
+    "LONGITUDE": -94.71171,
+    "AVG_Delay_Rate": "0.3675"
+  },
+  {
+    "ORIGIN_AIRPORT": "GJT",
+    "LATITUDE": 39.12241,
+    "LONGITUDE": -108.52673,
+    "AVG_Delay_Rate": "0.3024"
+  },
+  {
+    "ORIGIN_AIRPORT": "GNV",
+    "LATITUDE": 29.69006,
+    "LONGITUDE": -82.27178,
+    "AVG_Delay_Rate": "0.2940"
+  },
+  {
+    "ORIGIN_AIRPORT": "GPT",
+    "LATITUDE": 30.40728,
+    "LONGITUDE": -89.07009,
+    "AVG_Delay_Rate": "0.2873"
+  },
+  {
+    "ORIGIN_AIRPORT": "GRB",
+    "LATITUDE": 44.48507,
+    "LONGITUDE": -88.12959,
+    "AVG_Delay_Rate": "0.3527"
+  },
+  {
+    "ORIGIN_AIRPORT": "GRI",
+    "LATITUDE": 40.96747,
+    "LONGITUDE": -98.30861,
+    "AVG_Delay_Rate": "0.2335"
+  },
+  {
+    "ORIGIN_AIRPORT": "GRK",
+    "LATITUDE": 31.0649,
+    "LONGITUDE": -97.8278,
+    "AVG_Delay_Rate": "0.2928"
+  },
+  {
+    "ORIGIN_AIRPORT": "GRR",
+    "LATITUDE": 42.88082,
+    "LONGITUDE": -85.52277,
+    "AVG_Delay_Rate": "0.2723"
+  },
+  {
+    "ORIGIN_AIRPORT": "GSO",
+    "LATITUDE": 36.09775,
+    "LONGITUDE": -79.9373,
+    "AVG_Delay_Rate": "0.2901"
+  },
+  {
+    "ORIGIN_AIRPORT": "GSP",
+    "LATITUDE": 34.89567,
+    "LONGITUDE": -82.21886,
+    "AVG_Delay_Rate": "0.3142"
+  },
+  {
+    "ORIGIN_AIRPORT": "GST",
+    "LATITUDE": 58.42438,
+    "LONGITUDE": -135.70738,
+    "AVG_Delay_Rate": "0.6623"
+  },
+  {
+    "ORIGIN_AIRPORT": "GTF",
+    "LATITUDE": 47.482,
+    "LONGITUDE": -111.37069,
+    "AVG_Delay_Rate": "0.2616"
+  },
+  {
+    "ORIGIN_AIRPORT": "GTR",
+    "LATITUDE": 33.45033,
+    "LONGITUDE": -88.59137,
+    "AVG_Delay_Rate": "0.4398"
+  },
+  {
+    "ORIGIN_AIRPORT": "GUC",
+    "LATITUDE": 38.53396,
+    "LONGITUDE": -106.93318,
+    "AVG_Delay_Rate": "0.3869"
+  },
+  {
+    "ORIGIN_AIRPORT": "GUM",
+    "LATITUDE": 13.48345,
+    "LONGITUDE": -144.79598,
+    "AVG_Delay_Rate": "0.4072"
+  },
+  {
+    "ORIGIN_AIRPORT": "HDN",
+    "LATITUDE": 40.48118,
+    "LONGITUDE": -107.21766,
+    "AVG_Delay_Rate": "0.3772"
+  },
+  {
+    "ORIGIN_AIRPORT": "HIB",
+    "LATITUDE": 47.3866,
+    "LONGITUDE": -92.83899,
+    "AVG_Delay_Rate": "0.1667"
+  },
+  {
+    "ORIGIN_AIRPORT": "HLN",
+    "LATITUDE": 46.60682,
+    "LONGITUDE": -111.98275,
+    "AVG_Delay_Rate": "0.2065"
+  },
+  {
+    "ORIGIN_AIRPORT": "HNL",
+    "LATITUDE": 21.31869,
+    "LONGITUDE": -157.92241,
+    "AVG_Delay_Rate": "0.3570"
+  },
+  {
+    "ORIGIN_AIRPORT": "HOB",
+    "LATITUDE": 32.68753,
+    "LONGITUDE": -103.21703,
+    "AVG_Delay_Rate": "0.2574"
+  },
+  {
+    "ORIGIN_AIRPORT": "HOU",
+    "LATITUDE": 29.64542,
+    "LONGITUDE": -95.27889,
+    "AVG_Delay_Rate": "0.3593"
+  },
+  {
+    "ORIGIN_AIRPORT": "HPN",
+    "LATITUDE": 41.06696,
+    "LONGITUDE": -73.70757,
+    "AVG_Delay_Rate": "0.3886"
+  },
+  {
+    "ORIGIN_AIRPORT": "HRL",
+    "LATITUDE": 26.22851,
+    "LONGITUDE": -97.65439,
+    "AVG_Delay_Rate": "0.2748"
+  },
+  {
+    "ORIGIN_AIRPORT": "HSV",
+    "LATITUDE": 34.64045,
+    "LONGITUDE": -86.77311,
+    "AVG_Delay_Rate": "0.3156"
+  },
+  {
+    "ORIGIN_AIRPORT": "HYA",
+    "LATITUDE": 41.66934,
+    "LONGITUDE": -70.28036,
+    "AVG_Delay_Rate": "0.2530"
+  },
+  {
+    "ORIGIN_AIRPORT": "HYS",
+    "LATITUDE": 38.84494,
+    "LONGITUDE": -99.27403,
+    "AVG_Delay_Rate": "0.3368"
+  },
+  {
+    "ORIGIN_AIRPORT": "IAD",
+    "LATITUDE": 38.94453,
+    "LONGITUDE": -77.45581,
+    "AVG_Delay_Rate": "0.3344"
+  },
+  {
+    "ORIGIN_AIRPORT": "IAG",
+    "LATITUDE": 43.10726,
+    "LONGITUDE": -78.94538,
+    "AVG_Delay_Rate": "0.3944"
+  },
+  {
+    "ORIGIN_AIRPORT": "IAH",
+    "LATITUDE": 29.98047,
+    "LONGITUDE": -95.33972,
+    "AVG_Delay_Rate": "0.4030"
+  },
+  {
+    "ORIGIN_AIRPORT": "ICT",
+    "LATITUDE": 37.64996,
+    "LONGITUDE": -97.43305,
+    "AVG_Delay_Rate": "0.3323"
+  },
+  {
+    "ORIGIN_AIRPORT": "IDA",
+    "LATITUDE": 43.51456,
+    "LONGITUDE": -112.07017,
+    "AVG_Delay_Rate": "0.2704"
+  },
+  {
+    "ORIGIN_AIRPORT": "ILG",
+    "LATITUDE": 39.67872,
+    "LONGITUDE": -75.60653,
+    "AVG_Delay_Rate": "0.5300"
+  },
+  {
+    "ORIGIN_AIRPORT": "ILM",
+    "LATITUDE": 34.27061,
+    "LONGITUDE": -77.90256,
+    "AVG_Delay_Rate": "0.2252"
+  },
+  {
+    "ORIGIN_AIRPORT": "IMT",
+    "LATITUDE": 45.81835,
+    "LONGITUDE": -88.11454,
+    "AVG_Delay_Rate": "0.2692"
+  },
+  {
+    "ORIGIN_AIRPORT": "IND",
+    "LATITUDE": 39.71733,
+    "LONGITUDE": -86.29438,
+    "AVG_Delay_Rate": "0.2946"
+  },
+  {
+    "ORIGIN_AIRPORT": "INL",
+    "LATITUDE": 48.56619,
+    "LONGITUDE": -93.40307,
+    "AVG_Delay_Rate": "0.2973"
+  },
+  {
+    "ORIGIN_AIRPORT": "ISN",
+    "LATITUDE": 48.17794,
+    "LONGITUDE": -103.64235,
+    "AVG_Delay_Rate": "0.2859"
+  },
+  {
+    "ORIGIN_AIRPORT": "ISP",
+    "LATITUDE": 40.79524,
+    "LONGITUDE": -73.10021,
+    "AVG_Delay_Rate": "0.2712"
+  },
+  {
+    "ORIGIN_AIRPORT": "ITH",
+    "LATITUDE": 42.49103,
+    "LONGITUDE": -76.45844,
+    "AVG_Delay_Rate": "0.3500"
+  },
+  {
+    "ORIGIN_AIRPORT": "ITO",
+    "LATITUDE": 19.72026,
+    "LONGITUDE": -155.04847,
+    "AVG_Delay_Rate": "0.3264"
+  },
+  {
+    "ORIGIN_AIRPORT": "JAC",
+    "LATITUDE": 43.60732,
+    "LONGITUDE": -110.73774,
+    "AVG_Delay_Rate": "0.3041"
+  },
+  {
+    "ORIGIN_AIRPORT": "JAN",
+    "LATITUDE": 32.31117,
+    "LONGITUDE": -90.07589,
+    "AVG_Delay_Rate": "0.3199"
+  },
+  {
+    "ORIGIN_AIRPORT": "JAX",
+    "LATITUDE": 30.49406,
+    "LONGITUDE": -81.68786,
+    "AVG_Delay_Rate": "0.3161"
+  },
+  {
+    "ORIGIN_AIRPORT": "JFK",
+    "LATITUDE": 40.63975,
+    "LONGITUDE": -73.77893,
+    "AVG_Delay_Rate": "0.3569"
+  },
+  {
+    "ORIGIN_AIRPORT": "JLN",
+    "LATITUDE": 37.15181,
+    "LONGITUDE": -94.49827,
+    "AVG_Delay_Rate": "0.3464"
+  },
+  {
+    "ORIGIN_AIRPORT": "JMS",
+    "LATITUDE": 46.92972,
+    "LONGITUDE": -98.6782,
+    "AVG_Delay_Rate": "1.0000"
+  },
+  {
+    "ORIGIN_AIRPORT": "JNU",
+    "LATITUDE": 58.35496,
+    "LONGITUDE": -134.57628,
+    "AVG_Delay_Rate": "0.4098"
+  },
+  {
+    "ORIGIN_AIRPORT": "KOA",
+    "LATITUDE": 19.73877,
+    "LONGITUDE": -156.04563,
+    "AVG_Delay_Rate": "0.3349"
+  },
+  {
+    "ORIGIN_AIRPORT": "KTN",
+    "LATITUDE": 55.35557,
+    "LONGITUDE": -131.71374,
+    "AVG_Delay_Rate": "0.3596"
+  },
+  {
+    "ORIGIN_AIRPORT": "LAN",
+    "LATITUDE": 42.7787,
+    "LONGITUDE": -84.58736,
+    "AVG_Delay_Rate": "0.3415"
+  },
+  {
+    "ORIGIN_AIRPORT": "LAR",
+    "LATITUDE": 41.31205,
+    "LONGITUDE": -105.67499,
+    "AVG_Delay_Rate": "0.2272"
+  },
+  {
+    "ORIGIN_AIRPORT": "LAS",
+    "LATITUDE": 36.08036,
+    "LONGITUDE": -115.15233,
+    "AVG_Delay_Rate": "0.3582"
+  },
+  {
+    "ORIGIN_AIRPORT": "LAW",
+    "LATITUDE": 34.56771,
+    "LONGITUDE": -98.41664,
+    "AVG_Delay_Rate": "0.2450"
+  },
+  {
+    "ORIGIN_AIRPORT": "LAX",
+    "LATITUDE": 33.94254,
+    "LONGITUDE": -118.40807,
+    "AVG_Delay_Rate": "0.3944"
+  },
+  {
+    "ORIGIN_AIRPORT": "LBB",
+    "LATITUDE": 33.66364,
+    "LONGITUDE": -101.82278,
+    "AVG_Delay_Rate": "0.3202"
+  },
+  {
+    "ORIGIN_AIRPORT": "LBE",
+    "LATITUDE": 40.27594,
+    "LONGITUDE": -79.4048,
+    "AVG_Delay_Rate": "0.3692"
+  },
+  {
+    "ORIGIN_AIRPORT": "LCH",
+    "LATITUDE": 30.1261,
+    "LONGITUDE": -93.2234,
+    "AVG_Delay_Rate": "0.2292"
+  },
+  {
+    "ORIGIN_AIRPORT": "LEX",
+    "LATITUDE": 38.03697,
+    "LONGITUDE": -84.60539,
+    "AVG_Delay_Rate": "0.2596"
+  },
+  {
+    "ORIGIN_AIRPORT": "LFT",
+    "LATITUDE": 30.20528,
+    "LONGITUDE": -91.98766,
+    "AVG_Delay_Rate": "0.3374"
+  },
+  {
+    "ORIGIN_AIRPORT": "LGA",
+    "LATITUDE": 40.77724,
+    "LONGITUDE": -73.87261,
+    "AVG_Delay_Rate": "0.3604"
+  },
+  {
+    "ORIGIN_AIRPORT": "LGB",
+    "LATITUDE": 33.81772,
+    "LONGITUDE": -118.15161,
+    "AVG_Delay_Rate": "0.3521"
+  },
+  {
+    "ORIGIN_AIRPORT": "LIH",
+    "LATITUDE": 21.97598,
+    "LONGITUDE": -159.33896,
+    "AVG_Delay_Rate": "0.3223"
+  },
+  {
+    "ORIGIN_AIRPORT": "LIT",
+    "LATITUDE": 34.7294,
+    "LONGITUDE": -92.22425,
+    "AVG_Delay_Rate": "0.3364"
+  },
+  {
+    "ORIGIN_AIRPORT": "LNK",
+    "LATITUDE": 40.85097,
+    "LONGITUDE": -96.75925,
+    "AVG_Delay_Rate": "0.3174"
+  },
+  {
+    "ORIGIN_AIRPORT": "LRD",
+    "LATITUDE": 27.54374,
+    "LONGITUDE": -99.46154,
+    "AVG_Delay_Rate": "0.2706"
+  },
+  {
+    "ORIGIN_AIRPORT": "LSE",
+    "LATITUDE": 43.87938,
+    "LONGITUDE": -91.25654,
+    "AVG_Delay_Rate": "0.2034"
+  },
+  {
+    "ORIGIN_AIRPORT": "LWS",
+    "LATITUDE": 46.3745,
+    "LONGITUDE": -117.01539,
+    "AVG_Delay_Rate": "0.0780"
+  },
+  {
+    "ORIGIN_AIRPORT": "MAF",
+    "LATITUDE": 31.94253,
+    "LONGITUDE": -102.20191,
+    "AVG_Delay_Rate": "0.3204"
+  },
+  {
+    "ORIGIN_AIRPORT": "MBS",
+    "LATITUDE": 43.53291,
+    "LONGITUDE": -84.07965,
+    "AVG_Delay_Rate": "0.3007"
+  },
+  {
+    "ORIGIN_AIRPORT": "MCI",
+    "LATITUDE": 39.29761,
+    "LONGITUDE": -94.71391,
+    "AVG_Delay_Rate": "0.3128"
+  },
+  {
+    "ORIGIN_AIRPORT": "MCO",
+    "LATITUDE": 28.42889,
+    "LONGITUDE": -81.31603,
+    "AVG_Delay_Rate": "0.3684"
+  },
+  {
+    "ORIGIN_AIRPORT": "MDT",
+    "LATITUDE": 40.1935,
+    "LONGITUDE": -76.7634,
+    "AVG_Delay_Rate": "0.2761"
+  },
+  {
+    "ORIGIN_AIRPORT": "MDW",
+    "LATITUDE": 41.78598,
+    "LONGITUDE": -87.75242,
+    "AVG_Delay_Rate": "0.3482"
+  },
+  {
+    "ORIGIN_AIRPORT": "MEM",
+    "LATITUDE": 35.04242,
+    "LONGITUDE": -89.97667,
+    "AVG_Delay_Rate": "0.3066"
+  },
+  {
+    "ORIGIN_AIRPORT": "MFE",
+    "LATITUDE": 26.17583,
+    "LONGITUDE": -98.23861,
+    "AVG_Delay_Rate": "0.2647"
+  },
+  {
+    "ORIGIN_AIRPORT": "MFR",
+    "LATITUDE": 42.37423,
+    "LONGITUDE": -122.8735,
+    "AVG_Delay_Rate": "0.3168"
+  },
+  {
+    "ORIGIN_AIRPORT": "MGM",
+    "LATITUDE": 32.30064,
+    "LONGITUDE": -86.39398,
+    "AVG_Delay_Rate": "0.3579"
+  },
+  {
+    "ORIGIN_AIRPORT": "MHK",
+    "LATITUDE": 39.14097,
+    "LONGITUDE": -96.67083,
+    "AVG_Delay_Rate": "0.2636"
+  },
+  {
+    "ORIGIN_AIRPORT": "MHT",
+    "LATITUDE": 42.93452,
+    "LONGITUDE": -71.43706,
+    "AVG_Delay_Rate": "0.2729"
+  },
+  {
+    "ORIGIN_AIRPORT": "MIA",
+    "LATITUDE": 25.79325,
+    "LONGITUDE": -80.29056,
+    "AVG_Delay_Rate": "0.4021"
+  },
+  {
+    "ORIGIN_AIRPORT": "MKE",
+    "LATITUDE": 42.94722,
+    "LONGITUDE": -87.89658,
+    "AVG_Delay_Rate": "0.3088"
+  },
+  {
+    "ORIGIN_AIRPORT": "MKG",
+    "LATITUDE": 43.16949,
+    "LONGITUDE": -86.23822,
+    "AVG_Delay_Rate": "0.3523"
+  },
+  {
+    "ORIGIN_AIRPORT": "MLB",
+    "LATITUDE": 28.10275,
+    "LONGITUDE": -80.64581,
+    "AVG_Delay_Rate": "0.1347"
+  },
+  {
+    "ORIGIN_AIRPORT": "MLI",
+    "LATITUDE": 41.44853,
+    "LONGITUDE": -90.50754,
+    "AVG_Delay_Rate": "0.3319"
+  },
+  {
+    "ORIGIN_AIRPORT": "MLU",
+    "LATITUDE": 32.51087,
+    "LONGITUDE": -92.03769,
+    "AVG_Delay_Rate": "0.3522"
+  },
+  {
+    "ORIGIN_AIRPORT": "MMH",
+    "LATITUDE": 37.62405,
+    "LONGITUDE": -118.83777,
+    "AVG_Delay_Rate": "0.3613"
+  },
+  {
+    "ORIGIN_AIRPORT": "MOB",
+    "LATITUDE": 30.69142,
+    "LONGITUDE": -88.24283,
+    "AVG_Delay_Rate": "0.3249"
+  },
+  {
+    "ORIGIN_AIRPORT": "MOT",
+    "LATITUDE": 48.25938,
+    "LONGITUDE": -101.28033,
+    "AVG_Delay_Rate": "0.2547"
+  },
+  {
+    "ORIGIN_AIRPORT": "MQT",
+    "LATITUDE": 46.35364,
+    "LONGITUDE": -87.39536,
+    "AVG_Delay_Rate": "0.2886"
+  },
+  {
+    "ORIGIN_AIRPORT": "MRY",
+    "LATITUDE": 36.58698,
+    "LONGITUDE": -121.84295,
+    "AVG_Delay_Rate": "0.3160"
+  },
+  {
+    "ORIGIN_AIRPORT": "MSN",
+    "LATITUDE": 43.13986,
+    "LONGITUDE": -89.33751,
+    "AVG_Delay_Rate": "0.3014"
+  },
+  {
+    "ORIGIN_AIRPORT": "MSO",
+    "LATITUDE": 46.91631,
+    "LONGITUDE": -114.09056,
+    "AVG_Delay_Rate": "0.2831"
+  },
+  {
+    "ORIGIN_AIRPORT": "MSP",
+    "LATITUDE": 44.88055,
+    "LONGITUDE": -93.21692,
+    "AVG_Delay_Rate": "0.3292"
+  },
+  {
+    "ORIGIN_AIRPORT": "MSY",
+    "LATITUDE": 29.99339,
+    "LONGITUDE": -90.25803,
+    "AVG_Delay_Rate": "0.3130"
+  },
+  {
+    "ORIGIN_AIRPORT": "MTJ",
+    "LATITUDE": 38.50887,
+    "LONGITUDE": -107.89383,
+    "AVG_Delay_Rate": "0.2916"
+  },
+  {
+    "ORIGIN_AIRPORT": "MVY",
+    "LATITUDE": 41.39303,
+    "LONGITUDE": -70.61433,
+    "AVG_Delay_Rate": "0.3415"
+  },
+  {
+    "ORIGIN_AIRPORT": "MYR",
+    "LATITUDE": 33.67975,
+    "LONGITUDE": -78.92833,
+    "AVG_Delay_Rate": "0.3906"
+  },
+  {
+    "ORIGIN_AIRPORT": "OAJ",
+    "LATITUDE": 34.82916,
+    "LONGITUDE": -77.61214,
+    "AVG_Delay_Rate": "0.2262"
+  },
+  {
+    "ORIGIN_AIRPORT": "OAK",
+    "LATITUDE": 37.72129,
+    "LONGITUDE": -122.22072,
+    "AVG_Delay_Rate": "0.3924"
+  },
+  {
+    "ORIGIN_AIRPORT": "OGG",
+    "LATITUDE": 20.89865,
+    "LONGITUDE": -156.43046,
+    "AVG_Delay_Rate": "0.3825"
+  },
+  {
+    "ORIGIN_AIRPORT": "OKC",
+    "LATITUDE": 35.39309,
+    "LONGITUDE": -97.60073,
+    "AVG_Delay_Rate": "0.3151"
+  },
+  {
+    "ORIGIN_AIRPORT": "OMA",
+    "LATITUDE": 41.30252,
+    "LONGITUDE": -95.89417,
+    "AVG_Delay_Rate": "0.3298"
+  },
+  {
+    "ORIGIN_AIRPORT": "OME",
+    "LATITUDE": 64.5122,
+    "LONGITUDE": -165.44525,
+    "AVG_Delay_Rate": "0.4367"
+  },
+  {
+    "ORIGIN_AIRPORT": "ONT",
+    "LATITUDE": 34.056,
+    "LONGITUDE": -117.60119,
+    "AVG_Delay_Rate": "0.3089"
+  },
+  {
+    "ORIGIN_AIRPORT": "ORD",
+    "LATITUDE": 41.9796,
+    "LONGITUDE": -87.90446,
+    "AVG_Delay_Rate": "0.3791"
+  },
+  {
+    "ORIGIN_AIRPORT": "ORF",
+    "LATITUDE": 36.89461,
+    "LONGITUDE": -76.20122,
+    "AVG_Delay_Rate": "0.3267"
+  },
+  {
+    "ORIGIN_AIRPORT": "ORH",
+    "LATITUDE": 42.26734,
+    "LONGITUDE": -71.87571,
+    "AVG_Delay_Rate": "0.2896"
+  },
+  {
+    "ORIGIN_AIRPORT": "OTH",
+    "LATITUDE": 43.41714,
+    "LONGITUDE": -124.24603,
+    "AVG_Delay_Rate": "0.4182"
+  },
+  {
+    "ORIGIN_AIRPORT": "OTZ",
+    "LATITUDE": 66.88468,
+    "LONGITUDE": -162.59855,
+    "AVG_Delay_Rate": "0.3373"
+  },
+  {
+    "ORIGIN_AIRPORT": "PAH",
+    "LATITUDE": 37.06083,
+    "LONGITUDE": -88.77375,
+    "AVG_Delay_Rate": "0.2928"
+  },
+  {
+    "ORIGIN_AIRPORT": "PBG",
+    "LATITUDE": 0,
+    "LONGITUDE": 0,
+    "AVG_Delay_Rate": "0.4626"
+  },
+  {
+    "ORIGIN_AIRPORT": "PBI",
+    "LATITUDE": 26.68316,
+    "LONGITUDE": -80.09559,
+    "AVG_Delay_Rate": "0.3948"
+  },
+  {
+    "ORIGIN_AIRPORT": "PDX",
+    "LATITUDE": 45.58872,
+    "LONGITUDE": -122.5975,
+    "AVG_Delay_Rate": "0.3054"
+  },
+  {
+    "ORIGIN_AIRPORT": "PHF",
+    "LATITUDE": 37.1319,
+    "LONGITUDE": -76.49299,
+    "AVG_Delay_Rate": "0.2242"
+  },
+  {
+    "ORIGIN_AIRPORT": "PHL",
+    "LATITUDE": 39.87195,
+    "LONGITUDE": -75.24114,
+    "AVG_Delay_Rate": "0.3645"
+  },
+  {
+    "ORIGIN_AIRPORT": "PHX",
+    "LATITUDE": 33.43417,
+    "LONGITUDE": -112.00806,
+    "AVG_Delay_Rate": "0.3659"
+  },
+  {
+    "ORIGIN_AIRPORT": "PIA",
+    "LATITUDE": 40.66424,
+    "LONGITUDE": -89.69331,
+    "AVG_Delay_Rate": "0.3585"
+  },
+  {
+    "ORIGIN_AIRPORT": "PIB",
+    "LATITUDE": 31.46715,
+    "LONGITUDE": -89.33706,
+    "AVG_Delay_Rate": "0.2665"
+  },
+  {
+    "ORIGIN_AIRPORT": "PIH",
+    "LATITUDE": 42.91131,
+    "LONGITUDE": -112.59586,
+    "AVG_Delay_Rate": "0.2665"
+  },
+  {
+    "ORIGIN_AIRPORT": "PIT",
+    "LATITUDE": 40.49147,
+    "LONGITUDE": -80.23287,
+    "AVG_Delay_Rate": "0.2683"
+  },
+  {
+    "ORIGIN_AIRPORT": "PLN",
+    "LATITUDE": 45.57093,
+    "LONGITUDE": -84.79672,
+    "AVG_Delay_Rate": "0.2658"
+  },
+  {
+    "ORIGIN_AIRPORT": "PNS",
+    "LATITUDE": 30.47331,
+    "LONGITUDE": -87.18744,
+    "AVG_Delay_Rate": "0.2923"
+  },
+  {
+    "ORIGIN_AIRPORT": "PPG",
+    "LATITUDE": 14.33102,
+    "LONGITUDE": -170.71053,
+    "AVG_Delay_Rate": "0.6262"
+  },
+  {
+    "ORIGIN_AIRPORT": "PSC",
+    "LATITUDE": 46.26468,
+    "LONGITUDE": -119.11903,
+    "AVG_Delay_Rate": "0.3093"
+  },
+  {
+    "ORIGIN_AIRPORT": "PSE",
+    "LATITUDE": 18.0083,
+    "LONGITUDE": -66.56301,
+    "AVG_Delay_Rate": "0.2430"
+  },
+  {
+    "ORIGIN_AIRPORT": "PSP",
+    "LATITUDE": 33.82922,
+    "LONGITUDE": -116.50625,
+    "AVG_Delay_Rate": "0.3591"
+  },
+  {
+    "ORIGIN_AIRPORT": "PUB",
+    "LATITUDE": 38.28909,
+    "LONGITUDE": -104.49657,
+    "AVG_Delay_Rate": "0.3295"
+  },
+  {
+    "ORIGIN_AIRPORT": "PVD",
+    "LATITUDE": 41.724,
+    "LONGITUDE": -71.42822,
+    "AVG_Delay_Rate": "0.2927"
+  },
+  {
+    "ORIGIN_AIRPORT": "PWM",
+    "LATITUDE": 43.64617,
+    "LONGITUDE": -70.30875,
+    "AVG_Delay_Rate": "0.3063"
+  },
+  {
+    "ORIGIN_AIRPORT": "RAP",
+    "LATITUDE": 44.04532,
+    "LONGITUDE": -103.05737,
+    "AVG_Delay_Rate": "0.3174"
+  },
+  {
+    "ORIGIN_AIRPORT": "RDD",
+    "LATITUDE": 40.50898,
+    "LONGITUDE": -122.2934,
+    "AVG_Delay_Rate": "0.2393"
+  },
+  {
+    "ORIGIN_AIRPORT": "RDM",
+    "LATITUDE": 44.25407,
+    "LONGITUDE": -121.14996,
+    "AVG_Delay_Rate": "0.2594"
+  },
+  {
+    "ORIGIN_AIRPORT": "RDU",
+    "LATITUDE": 35.87764,
+    "LONGITUDE": -78.78747,
+    "AVG_Delay_Rate": "0.3133"
+  },
+  {
+    "ORIGIN_AIRPORT": "RHI",
+    "LATITUDE": 45.63119,
+    "LONGITUDE": -89.46745,
+    "AVG_Delay_Rate": "0.3750"
+  },
+  {
+    "ORIGIN_AIRPORT": "RIC",
+    "LATITUDE": 37.50517,
+    "LONGITUDE": -77.31967,
+    "AVG_Delay_Rate": "0.3346"
+  },
+  {
+    "ORIGIN_AIRPORT": "RKS",
+    "LATITUDE": 41.59422,
+    "LONGITUDE": -109.06519,
+    "AVG_Delay_Rate": "0.2331"
+  },
+  {
+    "ORIGIN_AIRPORT": "RNO",
+    "LATITUDE": 39.49858,
+    "LONGITUDE": -119.76806,
+    "AVG_Delay_Rate": "0.3481"
+  },
+  {
+    "ORIGIN_AIRPORT": "ROA",
+    "LATITUDE": 37.32547,
+    "LONGITUDE": -79.97543,
+    "AVG_Delay_Rate": "0.3110"
+  },
+  {
+    "ORIGIN_AIRPORT": "ROC",
+    "LATITUDE": 43.11887,
+    "LONGITUDE": -77.67238,
+    "AVG_Delay_Rate": "0.2777"
+  },
+  {
+    "ORIGIN_AIRPORT": "ROW",
+    "LATITUDE": 33.30156,
+    "LONGITUDE": -104.53056,
+    "AVG_Delay_Rate": "0.3434"
+  },
+  {
+    "ORIGIN_AIRPORT": "RST",
+    "LATITUDE": 43.90883,
+    "LONGITUDE": -92.49799,
+    "AVG_Delay_Rate": "0.3694"
+  },
+  {
+    "ORIGIN_AIRPORT": "RSW",
+    "LATITUDE": 26.53617,
+    "LONGITUDE": -81.75517,
+    "AVG_Delay_Rate": "0.3435"
+  },
+  {
+    "ORIGIN_AIRPORT": "SAF",
+    "LATITUDE": 35.61678,
+    "LONGITUDE": -106.08814,
+    "AVG_Delay_Rate": "0.3431"
+  },
+  {
+    "ORIGIN_AIRPORT": "SAN",
+    "LATITUDE": 32.73356,
+    "LONGITUDE": -117.18966,
+    "AVG_Delay_Rate": "0.3268"
+  },
+  {
+    "ORIGIN_AIRPORT": "SAT",
+    "LATITUDE": 29.53369,
+    "LONGITUDE": -98.46978,
+    "AVG_Delay_Rate": "0.2982"
+  },
+  {
+    "ORIGIN_AIRPORT": "SAV",
+    "LATITUDE": 32.12758,
+    "LONGITUDE": -81.20214,
+    "AVG_Delay_Rate": "0.3539"
+  },
+  {
+    "ORIGIN_AIRPORT": "SBA",
+    "LATITUDE": 34.42621,
+    "LONGITUDE": -119.84037,
+    "AVG_Delay_Rate": "0.3224"
+  },
+  {
+    "ORIGIN_AIRPORT": "SBN",
+    "LATITUDE": 41.70895,
+    "LONGITUDE": -86.31847,
+    "AVG_Delay_Rate": "0.3718"
+  },
+  {
+    "ORIGIN_AIRPORT": "SBP",
+    "LATITUDE": 35.23706,
+    "LONGITUDE": -120.64239,
+    "AVG_Delay_Rate": "0.3510"
+  },
+  {
+    "ORIGIN_AIRPORT": "SCE",
+    "LATITUDE": 40.85121,
+    "LONGITUDE": -77.8463,
+    "AVG_Delay_Rate": "0.3217"
+  },
+  {
+    "ORIGIN_AIRPORT": "SDF",
+    "LATITUDE": 38.17439,
+    "LONGITUDE": -85.736,
+    "AVG_Delay_Rate": "0.3026"
+  },
+  {
+    "ORIGIN_AIRPORT": "SEA",
+    "LATITUDE": 47.44898,
+    "LONGITUDE": -122.30931,
+    "AVG_Delay_Rate": "0.3865"
+  },
+  {
+    "ORIGIN_AIRPORT": "SFO",
+    "LATITUDE": 37.619,
+    "LONGITUDE": -122.37484,
+    "AVG_Delay_Rate": "0.3672"
+  },
+  {
+    "ORIGIN_AIRPORT": "SGF",
+    "LATITUDE": 37.24433,
+    "LONGITUDE": -93.38686,
+    "AVG_Delay_Rate": "0.3697"
+  },
+  {
+    "ORIGIN_AIRPORT": "SGU",
+    "LATITUDE": 37.09058,
+    "LONGITUDE": -113.59306,
+    "AVG_Delay_Rate": "0.3199"
+  },
+  {
+    "ORIGIN_AIRPORT": "SHV",
+    "LATITUDE": 32.44663,
+    "LONGITUDE": -93.8256,
+    "AVG_Delay_Rate": "0.3708"
+  },
+  {
+    "ORIGIN_AIRPORT": "SIT",
+    "LATITUDE": 57.04714,
+    "LONGITUDE": -135.3616,
+    "AVG_Delay_Rate": "0.2960"
+  },
+  {
+    "ORIGIN_AIRPORT": "SJC",
+    "LATITUDE": 37.36186,
+    "LONGITUDE": -121.92901,
+    "AVG_Delay_Rate": "0.3732"
+  },
+  {
+    "ORIGIN_AIRPORT": "SJT",
+    "LATITUDE": 31.35775,
+    "LONGITUDE": -100.49631,
+    "AVG_Delay_Rate": "0.2280"
+  },
+  {
+    "ORIGIN_AIRPORT": "SJU",
+    "LATITUDE": 18.43942,
+    "LONGITUDE": -66.00183,
+    "AVG_Delay_Rate": "0.3188"
+  },
+  {
+    "ORIGIN_AIRPORT": "SLC",
+    "LATITUDE": 40.78839,
+    "LONGITUDE": -111.97777,
+    "AVG_Delay_Rate": "0.3136"
+  },
+  {
+    "ORIGIN_AIRPORT": "SMF",
+    "LATITUDE": 38.69542,
+    "LONGITUDE": -121.59077,
+    "AVG_Delay_Rate": "0.3759"
+  },
+  {
+    "ORIGIN_AIRPORT": "SMX",
+    "LATITUDE": 34.89925,
+    "LONGITUDE": -120.45758,
+    "AVG_Delay_Rate": "0.3057"
+  },
+  {
+    "ORIGIN_AIRPORT": "SNA",
+    "LATITUDE": 33.67566,
+    "LONGITUDE": -117.86822,
+    "AVG_Delay_Rate": "0.3058"
+  },
+  {
+    "ORIGIN_AIRPORT": "SPI",
+    "LATITUDE": 39.84395,
+    "LONGITUDE": -89.67762,
+    "AVG_Delay_Rate": "0.3093"
+  },
+  {
+    "ORIGIN_AIRPORT": "SPS",
+    "LATITUDE": 33.9888,
+    "LONGITUDE": -98.49189,
+    "AVG_Delay_Rate": "0.2621"
+  },
+  {
+    "ORIGIN_AIRPORT": "SRQ",
+    "LATITUDE": 27.39533,
+    "LONGITUDE": -82.55411,
+    "AVG_Delay_Rate": "0.3242"
+  },
+  {
+    "ORIGIN_AIRPORT": "STC",
+    "LATITUDE": 45.54532,
+    "LONGITUDE": -94.05834,
+    "AVG_Delay_Rate": "0.4578"
+  },
+  {
+    "ORIGIN_AIRPORT": "STL",
+    "LATITUDE": 38.74769,
+    "LONGITUDE": -90.35999,
+    "AVG_Delay_Rate": "0.3207"
+  },
+  {
+    "ORIGIN_AIRPORT": "STT",
+    "LATITUDE": 18.33731,
+    "LONGITUDE": -64.97336,
+    "AVG_Delay_Rate": "0.2892"
+  },
+  {
+    "ORIGIN_AIRPORT": "STX",
+    "LATITUDE": 17.70189,
+    "LONGITUDE": -64.79856,
+    "AVG_Delay_Rate": "0.3160"
+  },
+  {
+    "ORIGIN_AIRPORT": "SUN",
+    "LATITUDE": 43.50484,
+    "LONGITUDE": -114.29659,
+    "AVG_Delay_Rate": "0.2679"
+  },
+  {
+    "ORIGIN_AIRPORT": "SUX",
+    "LATITUDE": 42.4026,
+    "LONGITUDE": -96.38437,
+    "AVG_Delay_Rate": "0.2934"
+  },
+  {
+    "ORIGIN_AIRPORT": "SWF",
+    "LATITUDE": 41.50409,
+    "LONGITUDE": -74.10484,
+    "AVG_Delay_Rate": "0.3725"
+  },
+  {
+    "ORIGIN_AIRPORT": "SYR",
+    "LATITUDE": 43.11119,
+    "LONGITUDE": -76.10631,
+    "AVG_Delay_Rate": "0.2964"
+  },
+  {
+    "ORIGIN_AIRPORT": "TLH",
+    "LATITUDE": 30.39653,
+    "LONGITUDE": -84.35033,
+    "AVG_Delay_Rate": "0.2140"
+  },
+  {
+    "ORIGIN_AIRPORT": "TOL",
+    "LATITUDE": 41.58681,
+    "LONGITUDE": -83.80783,
+    "AVG_Delay_Rate": "0.1091"
+  },
+  {
+    "ORIGIN_AIRPORT": "TPA",
+    "LATITUDE": 27.97547,
+    "LONGITUDE": -82.53325,
+    "AVG_Delay_Rate": "0.3290"
+  },
+  {
+    "ORIGIN_AIRPORT": "TRI",
+    "LATITUDE": 36.47521,
+    "LONGITUDE": -82.40742,
+    "AVG_Delay_Rate": "0.3003"
+  },
+  {
+    "ORIGIN_AIRPORT": "TTN",
+    "LATITUDE": 40.27669,
+    "LONGITUDE": -74.81347,
+    "AVG_Delay_Rate": "0.3982"
+  },
+  {
+    "ORIGIN_AIRPORT": "TUL",
+    "LATITUDE": 36.19837,
+    "LONGITUDE": -95.88824,
+    "AVG_Delay_Rate": "0.2917"
+  },
+  {
+    "ORIGIN_AIRPORT": "TUS",
+    "LATITUDE": 32.11608,
+    "LONGITUDE": -110.94103,
+    "AVG_Delay_Rate": "0.3121"
+  },
+  {
+    "ORIGIN_AIRPORT": "TVC",
+    "LATITUDE": 44.74144,
+    "LONGITUDE": -85.58224,
+    "AVG_Delay_Rate": "0.2719"
+  },
+  {
+    "ORIGIN_AIRPORT": "TWF",
+    "LATITUDE": 42.4818,
+    "LONGITUDE": -114.48774,
+    "AVG_Delay_Rate": "0.1317"
+  },
+  {
+    "ORIGIN_AIRPORT": "TXK",
+    "LATITUDE": 33.45371,
+    "LONGITUDE": -93.99102,
+    "AVG_Delay_Rate": "0.3020"
+  },
+  {
+    "ORIGIN_AIRPORT": "TYR",
+    "LATITUDE": 32.35414,
+    "LONGITUDE": -95.40239,
+    "AVG_Delay_Rate": "0.3054"
+  },
+  {
+    "ORIGIN_AIRPORT": "TYS",
+    "LATITUDE": 35.81249,
+    "LONGITUDE": -83.99286,
+    "AVG_Delay_Rate": "0.3581"
+  },
+  {
+    "ORIGIN_AIRPORT": "UST",
+    "LATITUDE": 0,
+    "LONGITUDE": 0,
+    "AVG_Delay_Rate": "0.3935"
+  },
+  {
+    "ORIGIN_AIRPORT": "VEL",
+    "LATITUDE": 40.4409,
+    "LONGITUDE": -109.50992,
+    "AVG_Delay_Rate": "0.1250"
+  },
+  {
+    "ORIGIN_AIRPORT": "VLD",
+    "LATITUDE": 30.7825,
+    "LONGITUDE": -83.27672,
+    "AVG_Delay_Rate": "0.2206"
+  },
+  {
+    "ORIGIN_AIRPORT": "VPS",
+    "LATITUDE": 30.48325,
+    "LONGITUDE": -86.5254,
+    "AVG_Delay_Rate": "0.3107"
+  },
+  {
+    "ORIGIN_AIRPORT": "XNA",
+    "LATITUDE": 36.28187,
+    "LONGITUDE": -94.30681,
+    "AVG_Delay_Rate": "0.3888"
+  },
+  {
+    "ORIGIN_AIRPORT": "YUM",
+    "LATITUDE": 32.65658,
+    "LONGITUDE": -114.60597,
+    "AVG_Delay_Rate": "0.3921"
+  }
+]
