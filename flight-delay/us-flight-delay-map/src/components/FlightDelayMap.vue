@@ -8,6 +8,7 @@
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import * as turf from '@turf/turf';
+import searchQuery from './SearchBox.vue' 
 export default {
   data() {
     return {
@@ -81,7 +82,7 @@ export default {
         type: 'geojson',
         data: this.combinedGeoJSON,
       });
-
+      while (searchQuery != "ORD");
       this.map.addLayer({
         id: 'combined-layer',
         type: 'line',
