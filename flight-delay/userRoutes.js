@@ -45,13 +45,13 @@ router.post("/login", (req, res) => {
     }
 
     if (result.length === 0) {
-      res.send("No user found with that email");
+      res.send("<h1>No user found with that email</h1>");
     } else {
       const { PASSWORD: correctPwd, USERID: userId } = result[0]; //e.g. result = [ { PASSWORD: '123' } ]
 
       //compare password
       if (correctPwd !== password) {
-        res.send("Wrong password");
+        res.send("<h1>Wrong password</h1>");
       } else {
         req.session.userId = userId;
         // console.log("print user id", req.session.userId);
