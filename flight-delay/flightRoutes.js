@@ -32,6 +32,7 @@ router.get("/delay-history/city/:city", (req, res) => {
   });
 });
 
+
 router.get("/delay-history/airport/:airport", (req, res) => {
   console.log("search delay-history of airports");
   const { airport } = req.params;

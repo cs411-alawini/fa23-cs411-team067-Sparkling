@@ -8,6 +8,7 @@
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import * as turf from '@turf/turf';
+import searchQuery from './SearchBox.vue'
 export default {
   data() {
     return {
@@ -136,6 +137,7 @@ export default {
       return container;
     },
     addAirportNameLayer() {
+      console.log(searchQuery);
       this.map.addLayer({
         id: 'airport-names',
         type: 'symbol',
