@@ -114,7 +114,7 @@ router.post("/feedback/new", requireLogin, (req, res) => {
 
     if (result[0].count > 0) {
       return res.send(
-        "You have already posted feedback on this flight! Do not post repetitive feedback for the same flight!"
+        "<h1>You have already posted feedback on this flight! Do not post repetitive feedback for the same flight!</h1>"
       );
     } else {
       // Post feedback
@@ -126,10 +126,17 @@ router.post("/feedback/new", requireLogin, (req, res) => {
           // check if the error is from the trigger
           if (
             err.code === "ER_SIGNAL_EXCEPTION" &&
+            err.message.includes("Frequent feedback")
+          ) {
+            res.send(
+              "Feedback cannot be posted because you posted too much (5) feedback within 5 minutes. Please try again."
+            );
+          } else if (
+            err.code === "ER_SIGNAL_EXCEPTION" &&
             err.message.includes("No matching flight")
           ) {
             res.send(
-              "Feedback cannot be posted because the flight does not exist."
+              "<h1>Feedback cannot be posted because the flight does not exist.</h1>"
             );
           }
           // handle other errors
@@ -178,7 +185,7 @@ router.delete("/feedback/:feedbackID", requireLogin, (req, res) => {
       return;
     }
     if (result.length === 0) {
-      res.send("No feedback found with that feedbackID");
+      res.send("<h1>No feedback found with that feedbackID</h1>");
     } else {
       //found feedback with that feedbackID
       var deleteSql = `DELETE FROM Feedbacks WHERE FEEDBACKID = '${feedbackID}'`;

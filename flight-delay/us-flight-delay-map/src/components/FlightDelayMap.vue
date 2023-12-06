@@ -126,18 +126,6 @@ export default {
     },
   },
 };
-    // setupClickEventOnLayer() {
-    //   this.map.on('click', 'airport-names', (e) => {
-    //     const coordinates = e.features[0].geometry.coordinates.slice();
-    //     const title = e.features[0].properties.title;
-    //     const avgDelayRate = e.features[0].properties.avgDelayRate;
-
-    //     new mapboxgl.Popup()
-    //       .setLngLat(coordinates)
-    //       .setHTML(`<b>${title}</b><br>Avg Delay Rate: ${avgDelayRate}`)
-    //       .addTo(this.map);
-    //   });
-      // Add a click event listener for the 'airport-names' layer
 
 </script>
 

@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <FlightDelayMap />
+    <tableshow></tableshow>
   </div>
 </template>
 
 <script>
 import FlightDelayMap from './components/FlightDelayMap.vue';
-
+import tableshow from './components/SearchBox.vue'
 export default {
   name: 'App',
   components: {
     FlightDelayMap,
+    tableshow
   },
 };
 </script>

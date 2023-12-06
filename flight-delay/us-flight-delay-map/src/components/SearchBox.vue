@@ -131,8 +131,8 @@ export default defineComponent({
           url += `airport/${searchQuery.value}`;
           break;
         case 'flight':
-          const [airline_IATA, number] = searchQuery.value.split('-');
-          url += `flight/${airline_IATA}/${number}`;
+          // const [airline_IATA, number] = searchQuery.value.split('-');
+          // url += `flight/${airline_IATA}/${number}`;
           break;
       }
       
