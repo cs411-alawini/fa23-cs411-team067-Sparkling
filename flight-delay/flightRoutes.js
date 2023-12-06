@@ -123,9 +123,11 @@ router.get("/delay-rate/airport/:airport_IATA", (req, res) => {
   });
 });
 
-//search delay rate of all routes
-router.get("/delay-rate/route", (req, res) => {
-  console.log(`search delay rate of all routes`);
+//search delay rate of origin airport${airport_IATA}
+router.get("/delay-rate/route/:airport_IATA", (req, res) => {
+  const { airport_IATA } = req.params;
+  console.log(airport_IATA);
+  console.log(`search delay rate of origin airport${airport_IATA}`);
   var sql = `
     SELECT 
       ORIGIN_AIRPORT,
@@ -138,7 +140,7 @@ router.get("/delay-rate/route", (req, res) => {
     FROM Flights f
       JOIN Airports a ON a.IATA_CODE = f.ORIGIN_AIRPORT
       JOIN Airports a1 ON a1.IATA_CODE = f.DESTINATION_AIRPORT
-    WHERE ORIGIN_AIRPORT NOT LIKE '1__' AND DESTINATION_AIRPORT NOT LIKE '1__'
+    WHERE ORIGIN_AIRPORT='${airline_IATA}' AND DESTINATION_AIRPORT NOT LIKE '1__'
     GROUP BY ORIGIN_AIRPORT, DESTINATION_AIRPORT
   `;
   //'1__' filter out suspicious row for now
