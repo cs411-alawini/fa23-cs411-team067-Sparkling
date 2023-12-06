@@ -126,6 +126,13 @@ router.post("/feedback/new", requireLogin, (req, res) => {
           // check if the error is from the trigger
           if (
             err.code === "ER_SIGNAL_EXCEPTION" &&
+            err.message.includes("Frequent feedback")
+          ) {
+            res.send(
+              "Feedback cannot be posted because you already posted 5 feedback in the last 5 minutes. Please try again."
+            );
+          } else if (
+            err.code === "ER_SIGNAL_EXCEPTION" &&
             err.message.includes("No matching flight")
           ) {
             res.send(

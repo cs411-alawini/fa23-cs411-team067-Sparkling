@@ -2,7 +2,11 @@ var express = require("express");
 var path = require("path");
 var cors = require("cors");
 const ejsMate = require("ejs-mate");
-const { connection, createProcedure } = require("./db");
+const {
+  connection,
+  createProcedure,
+  trigger_checkFeedbackFrequency: createTrigger,
+} = require("./db");
 const session = require("express-session");
 const methodOverride = require("method-override"); //to support update in HTTP forms
 // API:https://hackmd.io/uFNnJ9u9SsO_yfV6OQXO0Q?view
@@ -18,7 +22,7 @@ connection.connect((err) => {
   console.log("Connecting the database successfully");
 });
 createProcedure();
-
+createTrigger();
 var app = express();
 
 //set up ejs view engine
