@@ -52,13 +52,19 @@ export default defineComponent({
         },
         {
           label: "City",
-          field: "city",
+          field: "CITY",
           width: "10%",
           sortable: true,
         },
         {
           label: "IATA_CODE",
           field: "IATA_CODE",
+          width: "15%",
+          sortable: true,
+        },
+        {
+          label: "AIRLINE",
+          field: "AIRLINE",
           width: "15%",
           sortable: true,
         },
