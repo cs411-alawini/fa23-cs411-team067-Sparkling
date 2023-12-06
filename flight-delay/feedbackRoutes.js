@@ -124,20 +124,19 @@ router.post("/feedback/new", requireLogin, (req, res) => {
       connection.query(sql, (err, result) => {
         if (err) {
           // check if the error is from the trigger
-          if (
-            err.code === "ER_SIGNAL_EXCEPTION" &&
-            err.message.includes("Frequent feedback")
-          ) {
-            res.send(
-              "Feedback cannot be posted because you posted too much (5) feedback within 5 minutes. Please try again."
-            );
-          } else if (
-            err.code === "ER_SIGNAL_EXCEPTION" &&
-            err.message.includes("No matching flight")
-          ) {
+          if (err.message.includes("No matching flight")) {
             res.send(
               "<h1>Feedback cannot be posted because the flight does not exist.</h1>"
             );
+          } else if (
+            err.code === "ER_NO_REFERENCED_ROW_2" &&
+            err.sqlMessage.includes("foreign key constraint fails") &&
+            err.sql.includes("CheckIfFlightExistBeforeInsert")
+          ) {
+            req.session.userId = null;
+            error_Msg =
+              "Your account has been deleted due to a violation of user agreement: Users are not allowed to post too much (>=5) feedbacks with 2 minutes.";
+            res.render("feedback/error", { error_Msg });
           }
           // handle other errors
           else {
@@ -148,6 +147,7 @@ router.post("/feedback/new", requireLogin, (req, res) => {
         // res.json(result);
         // res.send("Inserted your feedback successfully.");
         console.log("Inserted your feedback successfully.");
+
         res.redirect("/feedback");
       });
     }
