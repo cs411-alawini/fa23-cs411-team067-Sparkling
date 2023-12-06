@@ -7,12 +7,16 @@
 <script>
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-
+import * as turf from '@turf/turf';
 export default {
   data() {
     return {
       map: null,
       airportsData: [], // 存储机场数据
+      combinedGeoJSON: {
+        type: 'FeatureCollection',
+        features: [],
+      },
     };
   },
   mounted() {
@@ -32,6 +36,64 @@ export default {
         this.loadAirportData();
         this.addAirportMarkers();
         this.addAirportNameLayer();
+        this.getDataFromAPI();
+      });
+    },
+    getDataFromAPI() {
+      // Make an HTTP request to your API endpoint
+      // For example using axios or fetch
+      fetch('http://localhost:3000/delay-rate/route/ORD')
+        .then(response => response.json())
+        .then(data => {
+          this.drawSmoothLines(data);
+          this.addCombinedLayer();
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+        });
+    },
+    drawSmoothLines(dataList) {
+      dataList.forEach(data => {
+        this.drawSmoothLine(data);
+      });
+    },
+    drawSmoothLine(data) {
+      if (!data || !data.origin_lat || !data.origin_lon || !data.dest_lat || !data.dest_lon) {
+        console.error('Invalid data format:', data);
+        // Display an error message or handle the invalid data appropriately
+        return;
+      }
+
+      const coordinates = [
+        [data.origin_lon, data.origin_lat],
+        [data.dest_lon, data.dest_lat],
+      ];
+
+      const line = turf.lineString(coordinates);
+      const smoothLine = turf.simplify(line);
+
+      // Add the smooth line to the combined GeoJSON object
+      this.combinedGeoJSON.features.push(smoothLine);
+    },
+    addCombinedLayer() {
+      // Add a single layer for all the lines
+      this.map.addSource('combined-source', {
+        type: 'geojson',
+        data: this.combinedGeoJSON,
+      });
+
+      this.map.addLayer({
+        id: 'combined-layer',
+        type: 'line',
+        source: 'combined-source',
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round',
+        },
+        paint: {
+          'line-color': 'royalblue',
+          'line-width': 0.5,
+        },
       });
     },
     loadAirportData() {
@@ -47,15 +109,6 @@ export default {
         } else if (parseFloat(AVG_Delay_Rate) > 0.38) {
           iconPath = 'airport3.ico';
         }
-
-        // new mapboxgl.Marker({
-        //   color: 'red',
-        //   draggable: false,
-        //   iconSize: [16, 16],
-        //   element: this.createCustomMarker(iconPath),
-        // })
-        //   .setLngLat([LONGITUDE, LATITUDE])
-        //   .addTo(this.map);
         const marker = new mapboxgl.Marker({
           color: 'red',
           draggable: false,

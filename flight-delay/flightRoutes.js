@@ -140,7 +140,7 @@ router.get("/delay-rate/route/:airport_IATA", (req, res) => {
     FROM Flights f
       JOIN Airports a ON a.IATA_CODE = f.ORIGIN_AIRPORT
       JOIN Airports a1 ON a1.IATA_CODE = f.DESTINATION_AIRPORT
-    WHERE ORIGIN_AIRPORT='${airline_IATA}' AND DESTINATION_AIRPORT NOT LIKE '1__'
+    WHERE ORIGIN_AIRPORT='${airport_IATA}' AND DESTINATION_AIRPORT NOT LIKE '1__'
     GROUP BY ORIGIN_AIRPORT, DESTINATION_AIRPORT
   `;
   //'1__' filter out suspicious row for now
