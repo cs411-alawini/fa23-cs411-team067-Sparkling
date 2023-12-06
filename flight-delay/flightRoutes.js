@@ -6,11 +6,21 @@ router.get("/delay-history/city/:city", (req, res) => {
   console.log("search delay-history of cities");
   const { city } = req.params;
   var sql = `
-      SELECT a.CITY, f.AIRLINE 
-      FROM Flights f JOIN Airports a ON (f.ORIGIN_AIRPORT = a.IATA_CODE)
-      WHERE a.CITY = '${city}' AND f.DEPARTURE_TIME > 0
-      limit 50
-      `;
+    SELECT 
+    ORIGIN_AIRPORT,
+    a.CITY AS ori_city,
+    DESTINATION_AIRPORT,
+    a1.CITY AS des_city,
+    SUM(CASE WHEN ARRIVAL_DELAY > 0 THEN 1 ELSE 0 END) / COUNT(*) AS delay_rate
+    FROM Flights f
+    JOIN Airports a ON a.IATA_CODE = f.ORIGIN_AIRPORT
+    JOIN Airports a1 ON a1.IATA_CODE = f.DESTINATION_AIRPORT
+    WHERE ORIGIN_AIRPORT NOT LIKE '1__' AND DESTINATION_AIRPORT NOT LIKE '1__'
+    GROUP BY ORIGIN_AIRPORT, DESTINATION_AIRPORT
+    HAVING a.city='${city}'
+    LIMIT 50
+  `;
+
   console.log(sql);
   connection.query(sql, (err, result) => {
     if (err) {
