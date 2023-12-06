@@ -1,4 +1,5 @@
 <template>
+  <a href="http://localhost:3000" class="login-link">Login</a>
   <div class="search-container">
     <input v-model="searchQuery" type="text" placeholder="Waiting For Input...">
     <button @click="doSearch(target_offset, target_limit)">🔍</button>
@@ -57,14 +58,14 @@ export default defineComponent({
           sortable: true,
         },
         {
-          label: "IATA_CODE",
-          field: "IATA_CODE",
+          label: "ORIGIN_AIRPORT",
+          field: "ORIGIN_AIRPORT",
           width: "15%",
           sortable: true,
         },
         {
-          label: "AIRLINE",
-          field: "AIRLINE",
+          label: "DESTINATION_AIRPORT",
+          field: "DESTINATION_AIRPORT",
           width: "15%",
           sortable: true,
         },
