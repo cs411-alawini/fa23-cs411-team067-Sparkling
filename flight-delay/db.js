@@ -84,20 +84,20 @@ function trigger_checkFeedbackFrequency() {
   const triggername = "checkFeedbackFrequency";
   const sql_trigger_checkFeedbackFrequency = `
   CREATE TRIGGER ${triggername}
-    BEFORE INSERT ON Feedbacks
+    AFTER INSERT ON Feedbacks
     FOR EACH ROW
     BEGIN
       SET @feedbackCount=(
         SELECT COUNT(*)
         FROM Feedbacks
         WHERE USERID = NEW.USERID
-        AND TIMESTAMP > NOW() - INTERVAL 5 MINUTE
+        AND TIMESTAMP > NOW() - INTERVAL 2 MINUTE
       );
-      IF @feedbackCount >= 5 THEN
-          SIGNAL SQLSTATE '45000'
-          SET MESSAGE_TEXT = 'Frequent feedback';
+      IF @feedbackCount >= 6 THEN
+          DELETE FROM Users
+          WHERE USERID = new.USERID;
       END IF;
-      END;
+    END;
   `;
   const sql_checkTriggerExists = `
   SELECT TRIGGER_NAME
