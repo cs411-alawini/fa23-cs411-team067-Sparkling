@@ -48,18 +48,19 @@ export default defineComponent({
       isLoading: false,
       pagesize: 20,
       columns: [
+        
         {
-          label: "ID",
-          field: "id",
+          label: "City",
+          field: "ori_city",
+          width: "10%",
+          sortable: true,
+        },
+        {
+          label: "DESTINATION_CITY",
+          field: "des_city",
           width: "3%",
           sortable: true,
           isKey: true,
-        },
-        {
-          label: "City",
-          field: "CITY",
-          width: "10%",
-          sortable: true,
         },
         {
           label: "ORIGIN_AIRPORT",
@@ -70,6 +71,12 @@ export default defineComponent({
         {
           label: "DESTINATION_AIRPORT",
           field: "DESTINATION_AIRPORT",
+          width: "15%",
+          sortable: true,
+        },
+        {
+          label: "DELAY_RATE",
+          field: "delay_rate",
           width: "15%",
           sortable: true,
         },
