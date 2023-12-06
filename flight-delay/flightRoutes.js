@@ -6,9 +6,10 @@ router.get("/delay-history/city/:city", (req, res) => {
   console.log("search delay-history of cities");
   const { city } = req.params;
   var sql = `
-      SELECT count(*)  
+      SELECT a.CITY, f.AIRLINE 
       FROM Flights f JOIN Airports a ON (f.ORIGIN_AIRPORT = a.IATA_CODE)
       WHERE a.CITY = '${city}' AND f.DEPARTURE_TIME > 0
+      limit 50
       `;
   console.log(sql);
   connection.query(sql, (err, result) => {
