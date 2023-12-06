@@ -62,14 +62,14 @@ export default defineComponent({
           sortable: true,
         },
         {
-          label: "IATA_CODE",
-          field: "IATA_CODE",
+          label: "ORIGIN_AIRPORT",
+          field: "ORIGIN_AIRPORT",
           width: "15%",
           sortable: true,
         },
         {
-          label: "AIRLINE",
-          field: "AIRLINE",
+          label: "DESTINATION_AIRPORT",
+          field: "DESTINATION_AIRPORT",
           width: "15%",
           sortable: true,
         },
