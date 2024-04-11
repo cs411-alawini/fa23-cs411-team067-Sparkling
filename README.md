@@ -1,5 +1,5 @@
 # fa23-cs411-team067-Sparkling
-# FlightsHub Insights
+# About this project
 This project supports search flight delay history in U.S. in 2015. The dataset pertains to 2015 flight delays and cancellations from the U.S. Department of Transportation’s (DOT) Bureau of Transportation Statistics. Link: https://www.kaggle.com/datasets/usdot/flight-delays.
 
 # How to set up for this project?
